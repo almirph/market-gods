@@ -1,4 +1,4 @@
-{
+const cards = `{
     "1": {
      "name": "Nethergram",
      "effect": "Summon three random creatures that cost 3 mana or less from your void. Give them +1/+1.",
@@ -17,7 +17,7 @@
     },
     "10": {
      "name": "Catacomb Curator",
-     "effect": "Roar: Obliterate a card in your hand.\nAfterlife: Draw a card.",
+     "effect": "Roar: Obliterate a card in your hand.\\nAfterlife: Draw a card.",
      "god": "death",
      "rarity": "rare",
      "tribe": "anubian",
@@ -33,7 +33,7 @@
     },
     "100": {
      "name": "Hercules, Son of Zeus",
-     "effect": "Frontline, protected.\nRoar: Your other Olympians each get +2/+2.",
+     "effect": "Frontline, protected.\\nRoar: Your other Olympians each get +2/+2.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -65,7 +65,7 @@
     },
     "100000": {
      "name": "Promethean Flame",
-     "effect": "When drawn, deal 3 damage randomly and obliterate this card.\nDraw a card.",
+     "effect": "When drawn, deal 3 damage randomly and obliterate this card.\\nDraw a card.",
      "god": "neutral",
      "rarity": "mythic",
      "tribe": "",
@@ -97,7 +97,7 @@
     },
     "100003": {
      "name": "Orax, Shield of Pain",
-     "effect": "Leech.\nWhenever your god is attacked, deal 2 damage to the attacker and remove 1 durability from this relic.",
+     "effect": "Leech.\\nWhenever your god is attacked, deal 2 damage to the attacker and remove 1 durability from this relic.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "",
@@ -177,7 +177,7 @@
     },
     "100008": {
      "name": "Seer",
-     "effect": "Foresee 2.\nDraw a card.",
+     "effect": "Foresee 2.\\nDraw a card.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -225,7 +225,7 @@
     },
     "100036": {
      "name": "Sentient Flameblades",
-     "effect": "Godblitz.\nAfter you attack, heal your god for 5.",
+     "effect": "Godblitz.\\nAfter you attack, heal your god for 5.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -241,7 +241,7 @@
     },
     "100037": {
      "name": "Phoenix Egg",
-     "effect": "Cannot attack. Burn 2.\nAfterlife: If this creature is destroyed by burn damage, summon a First Phoenix.",
+     "effect": "Cannot attack. Burn 2.\\nAfterlife: If this creature is destroyed by burn damage, summon a First Phoenix.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "",
@@ -257,7 +257,7 @@
     },
     "100038": {
      "name": "Chicken Egg",
-     "effect": "Cannot attack. Burn 1.\nAfterlife: Summon a Brash Chicken.",
+     "effect": "Cannot attack. Burn 1.\\nAfterlife: Summon a Brash Chicken.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "",
@@ -305,7 +305,7 @@
     },
     "100041": {
      "name": "Injured Soldier",
-     "effect": "Frontline.\nWhen this creature enters the board, it takes 1 damage.",
+     "effect": "Frontline.\\nWhen this creature enters the board, it takes 1 damage.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "olympian",
@@ -369,7 +369,7 @@
     },
     "100046": {
      "name": "Mirror",
-     "effect": "Frontline. Can't Attack.\nCreatures that attack this creature become confused.",
+     "effect": "Frontline. Can't Attack.\\nCreatures that attack this creature become confused.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -401,7 +401,7 @@
     },
     "100048": {
      "name": "Aching Disciple",
-     "effect": "Roar: Draw a card.\nAfterlife: Shuffle this creature into your deck.",
+     "effect": "Roar: Draw a card.\\nAfterlife: Shuffle this creature into your deck.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -529,7 +529,7 @@
     },
     "100056": {
      "name": "Rune of Sight",
-     "effect": "Foresee 2.\nDraw a card.",
+     "effect": "Foresee 2.\\nDraw a card.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -561,7 +561,7 @@
     },
     "100058": {
      "name": "Glamoured Gladius",
-     "effect": "Blitz.\nWhenever you attack, give a random friendly creature +1 strength.",
+     "effect": "Blitz.\\nWhenever you attack, give a random friendly creature +1 strength.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -577,7 +577,7 @@
     },
     "100059": {
      "name": "Curative Cudgel",
-     "effect": "Blitz.\nAfterlife: Heal your god for 3.",
+     "effect": "Blitz.\\nAfterlife: Heal your god for 3.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -1537,7 +1537,7 @@
     },
     "1004": {
      "name": "Opalised Roots",
-     "effect": "Obliterate four random cards\nin your void. Add four random nature cards to your hand.\nIf your void is empty,\nheal your god for 6.",
+     "effect": "Obliterate four random cards\\nin your void. Add four random nature cards to your hand.\\nIf your void is empty,\\nheal your god for 6.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -1569,7 +1569,7 @@
     },
     "1006": {
      "name": "Purification Filter",
-     "effect": "Destroy an enemy creature with 4 or more strength.\nGive +2/+2 to a random friendly creature with the lowest strength.",
+     "effect": "Destroy an enemy creature with 4 or more strength.\\nGive +2/+2 to a random friendly creature with the lowest strength.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -1585,7 +1585,7 @@
     },
     "1007": {
      "name": "Darkdream Hex",
-     "effect": "Target a creature.\nIf it's sleeping, destroy it. Otherwise, it goes to sleep.",
+     "effect": "Target a creature.\\nIf it's sleeping, destroy it. Otherwise, it goes to sleep.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -1713,7 +1713,7 @@
     },
     "1010": {
      "name": "Blackblood Blast",
-     "effect": "Destroy all creatures.\nDeal 8 damage to your god.",
+     "effect": "Destroy all creatures.\\nDeal 8 damage to your god.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -1777,7 +1777,7 @@
     },
     "101300": {
      "name": "Explosive Barrel",
-     "effect": "Order 10. Burn 1.\nAfterlife: Deal 2 damage to your god.",
+     "effect": "Order 10. Burn 1.\\nAfterlife: Deal 2 damage to your god.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -1825,7 +1825,7 @@
     },
     "101303": {
      "name": "Final Draft",
-     "effect": "Deal 1 damage.\nDraw 1 card.",
+     "effect": "Deal 1 damage.\\nDraw 1 card.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -1857,7 +1857,7 @@
     },
     "101305": {
      "name": "Temnys of Thebia, Chronicler",
-     "effect": "At the start of the game, this card is pulled from your deck into your hand.\nRoar: Add a copy of this card to your opponent's hand. Seek out any card and add it to your hand.",
+     "effect": "At the start of the game, this card is pulled from your deck into your hand.\\nRoar: Add a copy of this card to your opponent's hand. Seek out any card and add it to your hand.",
      "god": "neutral",
      "rarity": "mythic",
      "tribe": "",
@@ -1969,7 +1969,7 @@
     },
     "101384": {
      "name": "Final Draft v2",
-     "effect": "Deal 2 damage.\nDraw 2 cards.",
+     "effect": "Deal 2 damage.\\nDraw 2 cards.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -1985,7 +1985,7 @@
     },
     "101385": {
      "name": "Final Draft v3",
-     "effect": "Deal 3 damage.\nDraw 3 cards.",
+     "effect": "Deal 3 damage.\\nDraw 3 cards.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -2001,7 +2001,7 @@
     },
     "101386": {
      "name": "Final Draft v4",
-     "effect": "Deal 4 damage.\nDraw 4 cards.",
+     "effect": "Deal 4 damage.\\nDraw 4 cards.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -2017,7 +2017,7 @@
     },
     "101387": {
      "name": "Final Draft v5",
-     "effect": "Deal 5 damage.\nDraw 5 cards.\n(No more rewrites Demetrios, just release the damn thing!)",
+     "effect": "Deal 5 damage.\\nDraw 5 cards.\\n(No more rewrites Demetrios, just release the damn thing!)",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -2097,7 +2097,7 @@
     },
     "1017": {
      "name": "Revivification",
-     "effect": "Heal your god for 7.\nIf this puts your god at full health, add a random Nature card to your hand.",
+     "effect": "Heal your god for 7.\\nIf this puts your god at full health, add a random Nature card to your hand.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -2129,7 +2129,7 @@
     },
     "1019": {
      "name": "Antimagic Wards",
-     "effect": "Give ward to a creature in your hand.\nAdd a mana lock to your opponent's mana gems.",
+     "effect": "Give ward to a creature in your hand.\\nAdd a mana lock to your opponent's mana gems.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -2161,7 +2161,7 @@
     },
     "1020": {
      "name": "Zealous March",
-     "effect": "Summon up to six 2/2 Acolytes and give them protected.\nFor each Acolyte not summoned, heal your god for 4.",
+     "effect": "Summon up to six 2/2 Acolytes and give them protected.\\nFor each Acolyte not summoned, heal your god for 4.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -2257,7 +2257,7 @@
     },
     "1026": {
      "name": "Lokian Disciple",
-     "effect": "Hidden. Flank.\nWhenever this creature attacks a god, a random enemy creature is put to sleep.",
+     "effect": "Hidden. Flank.\\nWhenever this creature attacks a god, a random enemy creature is put to sleep.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -2337,7 +2337,7 @@
     },
     "1030": {
      "name": "Sand Scorpion",
-     "effect": "Deadly.\nRoar: Select an Anubian from your void and trigger its afterlife.",
+     "effect": "Deadly.\\nRoar: Select an Anubian from your void and trigger its afterlife.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -2369,7 +2369,7 @@
     },
     "1032": {
      "name": "Writhing Spirit",
-     "effect": "Creatures damaged by this creature get burn +1.\nRoar: Obliterate a card in your hand.",
+     "effect": "Creatures damaged by this creature get burn +1.\\nRoar: Obliterate a card in your hand.",
      "god": "death",
      "rarity": "rare",
      "tribe": "nether",
@@ -2433,7 +2433,7 @@
     },
     "1036": {
      "name": "Leyhoard Hatchling",
-     "effect": "At the start of your turn, set this creature's mana cost to 10 minus the number of cards in your hand.\nRoar: Deal 4 damage.",
+     "effect": "At the start of your turn, set this creature's mana cost to 10 minus the number of cards in your hand.\\nRoar: Deal 4 damage.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "dragon",
@@ -2449,7 +2449,7 @@
     },
     "1037": {
      "name": "Oni Spellsword",
-     "effect": "Ward.\nAfter you play a card, this creature gets +1 strength, and the friendly creature with lowest health gains ward.",
+     "effect": "Ward.\\nAfter you play a card, this creature gets +1 strength, and the friendly creature with lowest health gains ward.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -2465,7 +2465,7 @@
     },
     "1038": {
      "name": "Choralis Rune Moth",
-     "effect": "Backline.\nAt the end of your turn, add a random rune to your hand and reduce its cost to 0.",
+     "effect": "Backline.\\nAt the end of your turn, add a random rune to your hand and reduce its cost to 0.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -2529,7 +2529,7 @@
     },
     "1041": {
      "name": "Tainted Treant",
-     "effect": "Regen 1.\nAt the end of your turn, add a random Nature card to your hand.",
+     "effect": "Regen 1.\\nAt the end of your turn, add a random Nature card to your hand.",
      "god": "nature",
      "rarity": "common",
      "tribe": "wild",
@@ -2561,7 +2561,7 @@
     },
     "1043": {
      "name": "Nefarious Briar",
-     "effect": "Regen 1.\nRoar: Remove 4 durability from your opponent's relic.",
+     "effect": "Regen 1.\\nRoar: Remove 4 durability from your opponent's relic.",
      "god": "nature",
      "rarity": "common",
      "tribe": "wild",
@@ -2577,7 +2577,7 @@
     },
     "1044": {
      "name": "Staff of Roots",
-     "effect": "Twin strike. Blitz.\nAfterlife: Summon a 1/1 Walking Plant.",
+     "effect": "Twin strike. Blitz.\\nAfterlife: Summon a 1/1 Walking Plant.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -2609,7 +2609,7 @@
     },
     "1046": {
      "name": "Faeflame Blade",
-     "effect": "Twin strike. Blitz.\nRoar: Target creature becomes confused.",
+     "effect": "Twin strike. Blitz.\\nRoar: Target creature becomes confused.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -2625,7 +2625,7 @@
     },
     "1047": {
      "name": "Vinebound Jotun",
-     "effect": "Overkill.\nRoar: Deal 3 damage to each other creature.",
+     "effect": "Overkill.\\nRoar: Deal 3 damage to each other creature.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -2673,7 +2673,7 @@
     },
     "105": {
      "name": "Pilgrim of the Cause",
-     "effect": "Protected.\nRoar: Give the Chosen One protected and move it one card closer to the top of your deck.",
+     "effect": "Protected.\\nRoar: Give the Chosen One protected and move it one card closer to the top of your deck.",
      "god": "light",
      "rarity": "rare",
      "tribe": "viking",
@@ -2689,7 +2689,7 @@
     },
     "1050": {
      "name": "Managarmr, Moon Hound",
-     "effect": "Confused.\nWhenever this creature attacks, refresh three mana gems.",
+     "effect": "Confused.\\nWhenever this creature attacks, refresh three mana gems.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "wild",
@@ -2705,7 +2705,7 @@
     },
     "1051": {
      "name": "Grendel, Night Terror",
-     "effect": "Blitz. Twin strike.\nAfter this creature attacks another creature, this creature becomes protected.",
+     "effect": "Blitz. Twin strike.\\nAfter this creature attacks another creature, this creature becomes protected.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "",
@@ -2737,7 +2737,7 @@
     },
     "1053": {
      "name": "Devouring Blade",
-     "effect": "Blitz.\nAfterlife: Destroy a random creature.",
+     "effect": "Blitz.\\nAfterlife: Destroy a random creature.",
      "god": "war",
      "rarity": "epic",
      "tribe": "",
@@ -2753,7 +2753,7 @@
     },
     "1054": {
      "name": "Chalice Priest",
-     "effect": "Backline.\nAbility: Set a creature's strength to 2.",
+     "effect": "Backline.\\nAbility: Set a creature's strength to 2.",
      "god": "light",
      "rarity": "epic",
      "tribe": "mystic",
@@ -2785,7 +2785,7 @@
     },
     "1056": {
      "name": "Helios Guardian",
-     "effect": "Frontline.\nAfterlife: Give +2 health to a random creature with strength 2 or less.",
+     "effect": "Frontline.\\nAfterlife: Give +2 health to a random creature with strength 2 or less.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -2801,7 +2801,7 @@
     },
     "1057": {
      "name": "Battle Cleric",
-     "effect": "Backline.\nAt the end of your turn, summon a 2/2 Acolyte.",
+     "effect": "Backline.\\nAt the end of your turn, summon a 2/2 Acolyte.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -2817,7 +2817,7 @@
     },
     "1058": {
      "name": "Bright Mage",
-     "effect": "Ward.\nRoar: Heal a friendly character for 2.",
+     "effect": "Ward.\\nRoar: Heal a friendly character for 2.",
      "god": "light",
      "rarity": "common",
      "tribe": "mystic",
@@ -2849,7 +2849,7 @@
     },
     "106": {
      "name": "Underbrush Boar",
-     "effect": "Confused.\nAt the end of the turn Underbrush Boar is summoned, attack a random enemy creature.",
+     "effect": "Confused.\\nAt the end of the turn Underbrush Boar is summoned, attack a random enemy creature.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "wild",
@@ -2881,7 +2881,7 @@
     },
     "1061": {
      "name": "Blind Martyr",
-     "effect": "Frontline.\nAfterlife: Give +2 health to each other friendly creature.",
+     "effect": "Frontline.\\nAfterlife: Give +2 health to each other friendly creature.",
      "god": "light",
      "rarity": "epic",
      "tribe": "",
@@ -2913,7 +2913,7 @@
     },
     "1063": {
      "name": "Asterius, Glittering One",
-     "effect": "Frontline.\nRoar: Friendly creatures with strength 2 or less get +2/+2.",
+     "effect": "Frontline.\\nRoar: Friendly creatures with strength 2 or less get +2/+2.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "",
@@ -3009,7 +3009,7 @@
     },
     "1069": {
      "name": "Amplureal, Sentient Shard",
-     "effect": "Ward.\nAfterlife: Add an Amplureal, Sentient Shard beneath the second card of your deck.",
+     "effect": "Ward.\\nAfterlife: Add an Amplureal, Sentient Shard beneath the second card of your deck.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "aether",
@@ -3185,7 +3185,7 @@
     },
     "1079": {
      "name": "Sentient Amphora",
-     "effect": "Frontline. Cannot attack.\nAfterlife: Draw a card.",
+     "effect": "Frontline. Cannot attack.\\nAfterlife: Draw a card.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "atlantean",
@@ -3201,7 +3201,7 @@
     },
     "108": {
      "name": "Carcass Vulture",
-     "effect": "Confused.\nWhenever a friendly creature dies, this creature gets +1/+1.",
+     "effect": "Confused.\\nWhenever a friendly creature dies, this creature gets +1/+1.",
      "god": "nature",
      "rarity": "common",
      "tribe": "wild",
@@ -3265,7 +3265,7 @@
     },
     "1083": {
      "name": "Planetar Centurion",
-     "effect": "Frontline.\nRoar: If you have another Aether in hand, delve an Aether and put it into your hand.",
+     "effect": "Frontline.\\nRoar: If you have another Aether in hand, delve an Aether and put it into your hand.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "aether",
@@ -3297,7 +3297,7 @@
     },
     "1085": {
      "name": "Phase Touched Golem",
-     "effect": "Ward.\nAt the end of your turn, give ward to each other friendly Atlantean.",
+     "effect": "Ward.\\nAt the end of your turn, give ward to each other friendly Atlantean.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "atlantean",
@@ -3377,7 +3377,7 @@
     },
     "109": {
      "name": "Aegis Commander",
-     "effect": "Frontline.\nRoar: Delve a creature with frontline, and put it into your hand.",
+     "effect": "Frontline.\\nRoar: Delve a creature with frontline, and put it into your hand.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "olympian",
@@ -3537,7 +3537,7 @@
     },
     "1099": {
      "name": "Rampart",
-     "effect": "Frontline. Can't attack.\nAt the end of each turn, set this creature's strength to 0.",
+     "effect": "Frontline. Can't attack.\\nAt the end of each turn, set this creature's strength to 0.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "structure",
@@ -3601,7 +3601,7 @@
     },
     "1101": {
      "name": "Wildfire",
-     "effect": "Deal 1 damage to each of your opponents creatures.\nGive +1/+1 and Regen +1 to your wild creatures.",
+     "effect": "Deal 1 damage to each of your opponents creatures.\\nGive +1/+1 and Regen +1 to your wild creatures.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -3617,7 +3617,7 @@
     },
     "1102": {
      "name": "Auric Mage",
-     "effect": "Leech.\nRoar: Deal 1 damage to each creature.",
+     "effect": "Leech.\\nRoar: Deal 1 damage to each creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "mystic",
@@ -3649,7 +3649,7 @@
     },
     "1104": {
      "name": "Catapult",
-     "effect": "Backline.\nAbility: Deal 3 damage.",
+     "effect": "Backline.\\nAbility: Deal 3 damage.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "structure",
@@ -3665,7 +3665,7 @@
     },
     "1105": {
      "name": "Amazon Flanker",
-     "effect": "Flank.\nRoar: Summon two Amazon Flankers.",
+     "effect": "Flank.\\nRoar: Summon two Amazon Flankers.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "amazon",
@@ -3729,7 +3729,7 @@
     },
     "1109": {
      "name": "Porphyrion, Dread Cyclops",
-     "effect": "Ward.\nAt the end of your turn, increase the mana cost of your opponent's god power by 2 until your next turn.",
+     "effect": "Ward.\\nAt the end of your turn, increase the mana cost of your opponent's god power by 2 until your next turn.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "",
@@ -3745,7 +3745,7 @@
     },
     "111": {
      "name": "Soul Jar",
-     "effect": "Cannot attack. Burn 1.\nAfterlife: Summon two 2/2 Anubians.",
+     "effect": "Cannot attack. Burn 1.\\nAfterlife: Summon two 2/2 Anubians.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "anubian",
@@ -3809,7 +3809,7 @@
     },
     "1113": {
      "name": "Helian Blademaster",
-     "effect": "Ward.\nRoar: Draw a card.",
+     "effect": "Ward.\\nRoar: Draw a card.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "guild",
@@ -3937,7 +3937,7 @@
     },
     "1120": {
      "name": "Vault Vagabond",
-     "effect": "Hidden. Flank.\nWhenever this creature attacks a god, copy the top card of your opponent's deck and add it to your hand.",
+     "effect": "Hidden. Flank.\\nWhenever this creature attacks a god, copy the top card of your opponent's deck and add it to your hand.",
      "god": "deception",
      "rarity": "common",
      "tribe": "guild",
@@ -4065,7 +4065,7 @@
     },
     "1128": {
      "name": "Wiccan Trapper",
-     "effect": "Flank.\nRoar: Remove 1 durability from your opponent's relic.",
+     "effect": "Flank.\\nRoar: Remove 1 durability from your opponent's relic.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "mystic",
@@ -4081,7 +4081,7 @@
     },
     "1129": {
      "name": "End Times",
-     "effect": "Destroy all creatures.\nSummon a 9/9 Demonic Skull with -1/-1 for each enemy creature destroyed and +1/+1 for each friendly.",
+     "effect": "Destroy all creatures.\\nSummon a 9/9 Demonic Skull with -1/-1 for each enemy creature destroyed and +1/+1 for each friendly.",
      "god": "death",
      "rarity": "epic",
      "tribe": "",
@@ -4113,7 +4113,7 @@
     },
     "1130": {
      "name": "Brimstone",
-     "effect": "Deal 2 damage to each god.\nDraw a card.",
+     "effect": "Deal 2 damage to each god.\\nDraw a card.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -4161,7 +4161,7 @@
     },
     "1133": {
      "name": "Ray of Disintegration",
-     "effect": "Destroy a creature.\nDeal 2 damage to your god.",
+     "effect": "Destroy a creature.\\nDeal 2 damage to your god.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -4241,7 +4241,7 @@
     },
     "1138": {
      "name": "Viking Longship",
-     "effect": "Blitz. Flank.\nRoar: Give each other friendly creature flank.",
+     "effect": "Blitz. Flank.\\nRoar: Give each other friendly creature flank.",
      "god": "war",
      "rarity": "rare",
      "tribe": "viking",
@@ -4321,7 +4321,7 @@
     },
     "1142": {
      "name": "Ares' Runeblade",
-     "effect": "Godblitz.\nWhenever you attack, deal 2 damage to each creature, and heal your god for the damage done.",
+     "effect": "Godblitz.\\nWhenever you attack, deal 2 damage to each creature, and heal your god for the damage done.",
      "god": "war",
      "rarity": "rare",
      "tribe": "",
@@ -4353,7 +4353,7 @@
     },
     "1144": {
      "name": "Athena's Conjurer",
-     "effect": "Frontline.\nRoar: Summon a 4/2 Propyrean Owl with frontline.",
+     "effect": "Frontline.\\nRoar: Summon a 4/2 Propyrean Owl with frontline.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "olympian",
@@ -4369,7 +4369,7 @@
     },
     "1145": {
      "name": "The Nemean Lion",
-     "effect": "Frontline.\nGain +1/+1 when a creature with roar enters the board.",
+     "effect": "Frontline.\\nGain +1/+1 when a creature with roar enters the board.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "",
@@ -4449,7 +4449,7 @@
     },
     "115": {
      "name": "Master of Surprises",
-     "effect": "Hidden.\nAt the end of your turn, each creature has a 50% chance to swap its attack and health.\nRoar: Swap the attack and health of each other creature.",
+     "effect": "Hidden.\\nAt the end of your turn, each creature has a 50% chance to swap its attack and health.\\nRoar: Swap the attack and health of each other creature.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -4577,7 +4577,7 @@
     },
     "1157": {
      "name": "Auric Rush",
-     "effect": "Pick one –\n· Deal 1 damage to each creature, or\n· Deal 2 damage to a creature.",
+     "effect": "Pick one –\\n· Deal 1 damage to each creature, or\\n· Deal 2 damage to a creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -4625,7 +4625,7 @@
     },
     "116": {
      "name": "Devouring Golem",
-     "effect": "Twin strike.\nAt the start of your turn, this creature destroys a random other friendly Atlantean to get +3/+3.",
+     "effect": "Twin strike.\\nAt the start of your turn, this creature destroys a random other friendly Atlantean to get +3/+3.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "atlantean",
@@ -4721,7 +4721,7 @@
     },
     "1165": {
      "name": "Infernal Footsoldier",
-     "effect": "Creatures damaged by this creature get burn +1.\nRoar: Summon an Infernal Footsoldier.",
+     "effect": "Creatures damaged by this creature get burn +1.\\nRoar: Summon an Infernal Footsoldier.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "nether",
@@ -4737,7 +4737,7 @@
     },
     "1166": {
      "name": "Bladefly",
-     "effect": "Confused.\nRoar: Summon two Bladeflys.",
+     "effect": "Confused.\\nRoar: Summon two Bladeflys.",
      "god": "nature",
      "rarity": "common",
      "tribe": "wild",
@@ -4753,7 +4753,7 @@
     },
     "1167": {
      "name": "Jungle Princess",
-     "effect": "Frontline.\nRoar: Summon two 1/1 Hyenas.",
+     "effect": "Frontline.\\nRoar: Summon two 1/1 Hyenas.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "amazon",
@@ -4977,7 +4977,7 @@
     },
     "118": {
      "name": "Penitent Spear",
-     "effect": "Godblitz.\nWhenever you attack, give +2 strength to a random friendly creature.",
+     "effect": "Godblitz.\\nWhenever you attack, give +2 strength to a random friendly creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -5041,7 +5041,7 @@
     },
     "1183": {
      "name": "Annoying Bureaucrat",
-     "effect": "Hidden for 1 turn.\nRoar: Give an enemy creature \"At the start of your turn, discard a card and remove this effect.\"",
+     "effect": "Hidden for 1 turn.\\nRoar: Give an enemy creature \"At the start of your turn, discard a card and remove this effect.\"",
      "god": "deception",
      "rarity": "rare",
      "tribe": "guild",
@@ -5057,7 +5057,7 @@
     },
     "1184": {
      "name": "Tomb Blademaster",
-     "effect": "Frontline.\nAfterlife: Summon two 3/2 Ancient Executioners with frontline.",
+     "effect": "Frontline.\\nAfterlife: Summon two 3/2 Ancient Executioners with frontline.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "anubian",
@@ -5121,7 +5121,7 @@
     },
     "1188": {
      "name": "Thaeric Blessing",
-     "effect": "Give target friendly creature +1 health.\nDraw a card.",
+     "effect": "Give target friendly creature +1 health.\\nDraw a card.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -5169,7 +5169,7 @@
     },
     "1190": {
      "name": "Recovering Sigil",
-     "effect": "Heal all friendly creatures for 4.\nDraw a card.",
+     "effect": "Heal all friendly creatures for 4.\\nDraw a card.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -5249,7 +5249,7 @@
     },
     "1195": {
      "name": "Devoted Follower",
-     "effect": "Ward.\nCreatures damaged by this creature get -2 strength.",
+     "effect": "Ward.\\nCreatures damaged by this creature get -2 strength.",
      "god": "light",
      "rarity": "common",
      "tribe": "mystic",
@@ -5297,7 +5297,7 @@
     },
     "1198": {
      "name": "Sentry Post",
-     "effect": "Backline.\nAbility: Deal 1 damage.",
+     "effect": "Backline.\\nAbility: Deal 1 damage.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "structure",
@@ -5329,7 +5329,7 @@
     },
     "12": {
      "name": "Sanctify",
-     "effect": "Give ward to all creatures with strength 2 or less.\nDraw a card.",
+     "effect": "Give ward to all creatures with strength 2 or less.\\nDraw a card.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -5425,7 +5425,7 @@
     },
     "1204": {
      "name": "Ballista",
-     "effect": "Backline.\nAbility: Deal 2 damage.",
+     "effect": "Backline.\\nAbility: Deal 2 damage.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "structure",
@@ -5489,7 +5489,7 @@
     },
     "1208": {
      "name": "Mammon's Stalwart",
-     "effect": "Frontline.\nRoar: Summon a 2/2 Netherling.",
+     "effect": "Frontline.\\nRoar: Summon a 2/2 Netherling.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "nether",
@@ -5505,7 +5505,7 @@
     },
     "1209": {
      "name": "The Portable Fortress",
-     "effect": "Frontline. Can't attack.\nAt the end of each turn, set Portable Fortress' strength to 0.",
+     "effect": "Frontline. Can't attack.\\nAt the end of each turn, set Portable Fortress' strength to 0.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "atlantean",
@@ -5553,7 +5553,7 @@
     },
     "1211": {
      "name": "Mire Bloodworm",
-     "effect": "Frontline.\nCreatures damaged by this creature get burn +1.",
+     "effect": "Frontline.\\nCreatures damaged by this creature get burn +1.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "wild",
@@ -5569,7 +5569,7 @@
     },
     "1212": {
      "name": "Thanakris Spell-Locusts",
-     "effect": "Deadly.\nAfterlife: At the start of your next turn, choose and obliterate a card in your hand, then summon this creature from the void.",
+     "effect": "Deadly.\\nAfterlife: At the start of your next turn, choose and obliterate a card in your hand, then summon this creature from the void.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "",
@@ -5697,7 +5697,7 @@
     },
     "122": {
      "name": "Tomb Robber",
-     "effect": "Hidden for 1 turn.\nAfterlife: Add a random anim, enchanted weapon, or rune to your hand. If you control another Anubian, add two instead.",
+     "effect": "Hidden for 1 turn.\\nAfterlife: Add a random anim, enchanted weapon, or rune to your hand. If you control another Anubian, add two instead.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "anubian",
@@ -5889,7 +5889,7 @@
     },
     "1230": {
      "name": "Inconspicuous Carriage",
-     "effect": "Frontline.\nAfterlife: Add a Bomb to your opponent's deck for each of their unused mana gems. (Bombs deal 3 damage to their god when drawn.)",
+     "effect": "Frontline.\\nAfterlife: Add a Bomb to your opponent's deck for each of their unused mana gems. (Bombs deal 3 damage to their god when drawn.)",
      "god": "deception",
      "rarity": "rare",
      "tribe": "structure",
@@ -5937,7 +5937,7 @@
     },
     "1233": {
      "name": "Fickle Cambion",
-     "effect": "Whenever your god gains health, this creature gets +1 health.\nWhenever your god loses health, this creature gets +1 strength.",
+     "effect": "Whenever your god gains health, this creature gets +1 health.\\nWhenever your god loses health, this creature gets +1 strength.",
      "god": "death",
      "rarity": "epic",
      "tribe": "nether",
@@ -5969,7 +5969,7 @@
     },
     "1235": {
      "name": "Feral Shapeshifter",
-     "effect": "Hidden for 1 turn.\nRoar: Deal 2 damage to an enemy creature.",
+     "effect": "Hidden for 1 turn.\\nRoar: Deal 2 damage to an enemy creature.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "",
@@ -6017,7 +6017,7 @@
     },
     "1238": {
      "name": "Reconnaissance",
-     "effect": "Target creature goes to sleep.\nAdd a copy of the top card of your opponent's deck to your hand.",
+     "effect": "Target creature goes to sleep.\\nAdd a copy of the top card of your opponent's deck to your hand.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -6113,7 +6113,7 @@
     },
     "1243": {
      "name": "Tracking Bolt",
-     "effect": "Pick one –\n· Deal 1 damage to each creature, or\n· Deal 3 damage to a creature.",
+     "effect": "Pick one –\\n· Deal 1 damage to each creature, or\\n· Deal 3 damage to a creature.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -6145,7 +6145,7 @@
     },
     "1245": {
      "name": "Crystal Rain",
-     "effect": "Deal 2 damage to each enemy creature.\nForesee 1.",
+     "effect": "Deal 2 damage to each enemy creature.\\nForesee 1.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -6177,7 +6177,7 @@
     },
     "1247": {
      "name": "Seeing Stone",
-     "effect": "Foresee 1.\nDraw a card.",
+     "effect": "Foresee 1.\\nDraw a card.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -6225,7 +6225,7 @@
     },
     "125": {
      "name": "Enflame Self",
-     "effect": "Deal 2 damage to your god. During your opponent's next turn, creatures that attack your god are given burn +2.\nDraw a card.",
+     "effect": "Deal 2 damage to your god. During your opponent's next turn, creatures that attack your god are given burn +2.\\nDraw a card.",
      "god": "death",
      "rarity": "rare",
      "tribe": "",
@@ -6257,7 +6257,7 @@
     },
     "1251": {
      "name": "Prescient Spellbinder",
-     "effect": "Roar: Pick one –\n· Look at the top three cards of your deck, or\n· Look at the top three cards of your opponent's deck.",
+     "effect": "Roar: Pick one –\\n· Look at the top three cards of your deck, or\\n· Look at the top three cards of your opponent's deck.",
      "god": "magic",
      "rarity": "common",
      "tribe": "mystic",
@@ -6273,7 +6273,7 @@
     },
     "1252": {
      "name": "Living Container",
-     "effect": "Soulless.\nRoar: Destroy a friendly creature.\nAfterlife: If the creature is in a void, give it +2/+2, and pull it onto the board.",
+     "effect": "Soulless.\\nRoar: Destroy a friendly creature.\\nAfterlife: If the creature is in a void, give it +2/+2, and pull it onto the board.",
      "god": "death",
      "rarity": "rare",
      "tribe": "nether",
@@ -6385,7 +6385,7 @@
     },
     "126": {
      "name": "A Real Man",
-     "effect": "Cannot attack.\nRoar: Hide a friendly creature for 1 turn.\nAfterlife: Draw a card.",
+     "effect": "Cannot attack.\\nRoar: Hide a friendly creature for 1 turn.\\nAfterlife: Draw a card.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -6433,7 +6433,7 @@
     },
     "129": {
      "name": "Avatar of Death",
-     "effect": "This creature gets +1 strength for each point of damage your god takes.\nAfterlife: Deal 6 damage to a random enemy creature.",
+     "effect": "This creature gets +1 strength for each point of damage your god takes.\\nAfterlife: Deal 6 damage to a random enemy creature.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "",
@@ -6465,7 +6465,7 @@
     },
     "130": {
      "name": "Mana Thief",
-     "effect": "Roar: Remove one of your mana locks and add one to your opponent's mana gems.\nAfterlife: Remove one of your opponent's mana locks add one to your mana gems.",
+     "effect": "Roar: Remove one of your mana locks and add one to your opponent's mana gems.\\nAfterlife: Remove one of your opponent's mana locks add one to your mana gems.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "mystic",
@@ -6513,7 +6513,7 @@
     },
     "1302": {
      "name": "Cursed Obelisks",
-     "effect": "Backline. Can’t attack.\nAt the end of your turn summon a 1/1 Zombie with leech. If you are frenzied, summon an additional Zombie.",
+     "effect": "Backline. Can’t attack.\\nAt the end of your turn summon a 1/1 Zombie with leech. If you are frenzied, summon an additional Zombie.",
      "god": "death",
      "rarity": "rare",
      "tribe": "structure",
@@ -6609,7 +6609,7 @@
     },
     "1308": {
      "name": "Necroscepter",
-     "effect": "At the end of your turn summon a 1/1 Zombie with leech. If you are frenzied, give that Zombie +1/+1.\nAfter a Zombie enters your void, your opponent loses 2 favor.",
+     "effect": "At the end of your turn summon a 1/1 Zombie with leech. If you are frenzied, give that Zombie +1/+1.\\nAfter a Zombie enters your void, your opponent loses 2 favor.",
      "god": "death",
      "rarity": "epic",
      "tribe": "",
@@ -6641,7 +6641,7 @@
     },
     "131": {
      "name": "Lara Grim, Spellthief",
-     "effect": "Hidden for 1 turn. Backline.\nWhenever a spell is cast, give a copy of it to the other player.",
+     "effect": "Hidden for 1 turn. Backline.\\nWhenever a spell is cast, give a copy of it to the other player.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "mystic",
@@ -6689,7 +6689,7 @@
     },
     "1312": {
      "name": "Moon-Crazed Cyclops",
-     "effect": "Confused.\nAt the end of your turn, if you are frenzied, gain +1/+1.",
+     "effect": "Confused.\\nAt the end of your turn, if you are frenzied, gain +1/+1.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -6705,7 +6705,7 @@
     },
     "1313": {
      "name": "Sip from the Spring",
-     "effect": "Give +2/+2 to your weakest creature.\nIf you are frenzied, also refresh two mana.",
+     "effect": "Give +2/+2 to your weakest creature.\\nIf you are frenzied, also refresh two mana.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -6721,7 +6721,7 @@
     },
     "1314": {
      "name": "Moonbeam",
-     "effect": "Deal 3 damage to a random enemy creature. \nIf you are frenzied, also refresh three mana.",
+     "effect": "Deal 3 damage to a random enemy creature. \\nIf you are frenzied, also refresh three mana.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -6801,7 +6801,7 @@
     },
     "1319": {
      "name": "Guerilla Gardener",
-     "effect": "Backline. Blitz. Overkill.\nAfter this creature destroys an enemy creature, summon a 1/1 Vibrant Fruit.",
+     "effect": "Backline. Blitz. Overkill.\\nAfter this creature destroys an enemy creature, summon a 1/1 Vibrant Fruit.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "wild",
@@ -6977,7 +6977,7 @@
     },
     "1329": {
      "name": "Shackled Acolyte",
-     "effect": "Order 3.\nWhen this creature loses order, give it +2/+2.",
+     "effect": "Order 3.\\nWhen this creature loses order, give it +2/+2.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -7009,7 +7009,7 @@
     },
     "1330": {
      "name": "Inconspicuous Bush",
-     "effect": "Order 3.\nWhen this creature loses order, add a random card from your opponent's domain to your hand.",
+     "effect": "Order 3.\\nWhen this creature loses order, add a random card from your opponent's domain to your hand.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -7025,7 +7025,7 @@
     },
     "1331": {
      "name": "Gorgon Gargoyle",
-     "effect": "Order 3.\nWhen this creature loses order, two different random enemy creatures go to sleep.",
+     "effect": "Order 3.\\nWhen this creature loses order, two different random enemy creatures go to sleep.",
      "god": "deception",
      "rarity": "common",
      "tribe": "structure",
@@ -7105,7 +7105,7 @@
     },
     "1336": {
      "name": "Lantern-Bound Fae",
-     "effect": "Order 3.\nAfter any creature you control loses order, pull this into your hand and reduce its cost by 1.\nRoar: Deal 3 damage.",
+     "effect": "Order 3.\\nAfter any creature you control loses order, pull this into your hand and reduce its cost by 1.\\nRoar: Deal 3 damage.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "nether",
@@ -7137,7 +7137,7 @@
     },
     "1338": {
      "name": "Patient Pickpocket",
-     "effect": "Order 3. Flank.\nWhen this creature loses order, add a copy of a random card in your opponent's hand to your hand.",
+     "effect": "Order 3. Flank.\\nWhen this creature loses order, add a copy of a random card in your opponent's hand to your hand.",
      "god": "deception",
      "rarity": "common",
      "tribe": "guild",
@@ -7153,7 +7153,7 @@
     },
     "1339": {
      "name": "Watchful Hound",
-     "effect": "Roar: Give order +10 to target enemy creature.\nAfterlife: Remove order from that creature.",
+     "effect": "Roar: Give order +10 to target enemy creature.\\nAfterlife: Remove order from that creature.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -7169,7 +7169,7 @@
     },
     "134": {
      "name": "Compost Charm",
-     "effect": "Heal your god for 10.\nIf you have eight cards in your void, add a random Nature card into your hand.",
+     "effect": "Heal your god for 10.\\nIf you have eight cards in your void, add a random Nature card into your hand.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -7201,7 +7201,7 @@
     },
     "1341": {
      "name": "Righteous Apparition",
-     "effect": "Backline.\nAbility: Give order +2 to an enemy creature.",
+     "effect": "Backline.\\nAbility: Give order +2 to an enemy creature.",
      "god": "light",
      "rarity": "common",
      "tribe": "aether",
@@ -7281,7 +7281,7 @@
     },
     "1346": {
      "name": "Writ of Law",
-     "effect": "Roar: Give order +8 to an enemy creature.\nAfterlife: Remove order from that creature.",
+     "effect": "Roar: Give order +8 to an enemy creature.\\nAfterlife: Remove order from that creature.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -7313,7 +7313,7 @@
     },
     "1348": {
      "name": "Pillar of Lightning",
-     "effect": "Order 10.\nAfter a friendly creature takes damage, deal 1 damage to the weakest enemy creature.",
+     "effect": "Order 10.\\nAfter a friendly creature takes damage, deal 1 damage to the weakest enemy creature.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "structure",
@@ -7361,7 +7361,7 @@
     },
     "1350": {
      "name": "All-Seeing Spire",
-     "effect": "Order 10.\nAt the start of your turn, foresee 1. At the end of your turn, draw a card.",
+     "effect": "Order 10.\\nAt the start of your turn, foresee 1. At the end of your turn, draw a card.",
      "god": "magic",
      "rarity": "common",
      "tribe": "structure",
@@ -7377,7 +7377,7 @@
     },
     "1351": {
      "name": "Stormfield",
-     "effect": "Deal 2 damage to each creature without order.\nGive spell boost +1 to each of your creatures.",
+     "effect": "Deal 2 damage to each creature without order.\\nGive spell boost +1 to each of your creatures.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -7393,7 +7393,7 @@
     },
     "1352": {
      "name": "Safeguard Incantation",
-     "effect": "Draw a card.\nGive ward and protected to your god.",
+     "effect": "Draw a card.\\nGive ward and protected to your god.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -7425,7 +7425,7 @@
     },
     "1354": {
      "name": "Modified Schematic",
-     "effect": "Add a random structure to your hand.\nGive it ward and +2 health.",
+     "effect": "Add a random structure to your hand.\\nGive it ward and +2 health.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -7441,7 +7441,7 @@
     },
     "1355": {
      "name": "Frostbitten Channeler",
-     "effect": "Spell boost +1.\nOrder 3.",
+     "effect": "Spell boost +1.\\nOrder 3.",
      "god": "magic",
      "rarity": "common",
      "tribe": "mystic",
@@ -7473,7 +7473,7 @@
     },
     "1357": {
      "name": "Snowstorm Spire",
-     "effect": "Order 10.\nAt the end of your turn, give ward to your god, and spell boost +1 to this creature.",
+     "effect": "Order 10.\\nAt the end of your turn, give ward to your god, and spell boost +1 to this creature.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "structure",
@@ -7489,7 +7489,7 @@
     },
     "1358": {
      "name": "Cursed Hoplite",
-     "effect": "Armor 1.\nAfterlife: Summon a 1/1 Skeleton with armor 1.",
+     "effect": "Armor 1.\\nAfterlife: Summon a 1/1 Skeleton with armor 1.",
      "god": "death",
      "rarity": "rare",
      "tribe": "olympian",
@@ -7553,7 +7553,7 @@
     },
     "1361": {
      "name": "Mark of Death",
-     "effect": "Blessed.\nGive each of your creatures \"Afterlife: Summon a 1/1 Zombie.\"",
+     "effect": "Blessed.\\nGive each of your creatures \"Afterlife: Summon a 1/1 Zombie.\"",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -7681,7 +7681,7 @@
     },
     "1369": {
      "name": "Harrowing Visions",
-     "effect": "Draw two cards.\nIf you are frenzied, draw three instead.",
+     "effect": "Draw two cards.\\nIf you are frenzied, draw three instead.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -7697,7 +7697,7 @@
     },
     "137": {
      "name": "Wrath Zealot",
-     "effect": "Deadly. Frontline.\nRoar: Summon a Wrath Zealot.",
+     "effect": "Deadly. Frontline.\\nRoar: Summon a Wrath Zealot.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "nether",
@@ -7729,7 +7729,7 @@
     },
     "1371": {
      "name": "Takhat, the Forgotten",
-     "effect": "Backline.\nAt the start of your turn and Roar: Summon the strongest creature from your void to the board. Give it soulless, and if it's an Anubian, also give it blitz and leech.",
+     "effect": "Backline.\\nAt the start of your turn and Roar: Summon the strongest creature from your void to the board. Give it soulless, and if it's an Anubian, also give it blitz and leech.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "anubian",
@@ -7745,7 +7745,7 @@
     },
     "1372": {
      "name": "Arch of Amenmose",
-     "effect": "Backline.\nAfter a friendly non-Zombie creature dies, summon a 1/1 Zombie.\nRoar \u0026 Ability: Summon three 1/1 Zombies.",
+     "effect": "Backline.\\nAfter a friendly non-Zombie creature dies, summon a 1/1 Zombie.\\nRoar \u0026 Ability: Summon three 1/1 Zombies.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "structure",
@@ -7777,7 +7777,7 @@
     },
     "1374": {
      "name": "Voracious Fiend",
-     "effect": "Leech.\nAfterlife: Summon a 1/1 Zombie with leech.",
+     "effect": "Leech.\\nAfterlife: Summon a 1/1 Zombie with leech.",
      "god": "death",
      "rarity": "common",
      "tribe": "nether",
@@ -7809,7 +7809,7 @@
     },
     "1376": {
      "name": "Miasmic Forge",
-     "effect": "Backline. Can't attack.\nWhenever you summon a creature, give it +1 armor.\nAt the start of your turn, deal 2 damage to your god.",
+     "effect": "Backline. Can't attack.\\nWhenever you summon a creature, give it +1 armor.\\nAt the start of your turn, deal 2 damage to your god.",
      "god": "death",
      "rarity": "epic",
      "tribe": "structure",
@@ -7825,7 +7825,7 @@
     },
     "1377": {
      "name": "Desecrated Shrine",
-     "effect": "Backline. Can't attack.\nAt the start of your turn, deal 2 damage to both gods.",
+     "effect": "Backline. Can't attack.\\nAt the start of your turn, deal 2 damage to both gods.",
      "god": "death",
      "rarity": "common",
      "tribe": "structure",
@@ -7841,7 +7841,7 @@
     },
     "1378": {
      "name": "Guardian Simulacrum",
-     "effect": "Spell boost +1.\nAt the end of turn, set this creature's armor equal to your total spell boost.",
+     "effect": "Spell boost +1.\\nAt the end of turn, set this creature's armor equal to your total spell boost.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "structure",
@@ -7905,7 +7905,7 @@
     },
     "1381": {
      "name": "Unproven Incantation",
-     "effect": "Blessed.\nDeal 4 damage to a creature. If it survives, give it burn +1.",
+     "effect": "Blessed.\\nDeal 4 damage to a creature. If it survives, give it burn +1.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -7921,7 +7921,7 @@
     },
     "1382": {
      "name": "Miraculous Familiar",
-     "effect": "Blessed.\nAfter you play your first spell each turn, add a random spell to your hand.",
+     "effect": "Blessed.\\nAfter you play your first spell each turn, add a random spell to your hand.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "aether",
@@ -7937,7 +7937,7 @@
     },
     "1383": {
      "name": "Scholar of Power",
-     "effect": "Spell boost +2.\nAfter you summon a creature, give it spell boost +2.\nRoar: Give each friendly creature spell boost +2.",
+     "effect": "Spell boost +2.\\nAfter you summon a creature, give it spell boost +2.\\nRoar: Give each friendly creature spell boost +2.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "aether",
@@ -7953,7 +7953,7 @@
     },
     "1384": {
      "name": "Vortimer the Volatile",
-     "effect": "After you play a spell, give this creature +1 strength.\nAt the end of your turn, if this creature has 3 strength or more, set it to 1 strength and draw a card.",
+     "effect": "After you play a spell, give this creature +1 strength.\\nAt the end of your turn, if this creature has 3 strength or more, set it to 1 strength and draw a card.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "nether",
@@ -7969,7 +7969,7 @@
     },
     "1385": {
      "name": "Crystal Watcher",
-     "effect": "Order 10.\nAbility: Unlock a mana lock and deal 1 damage to this creature.",
+     "effect": "Order 10.\\nAbility: Unlock a mana lock and deal 1 damage to this creature.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -8065,7 +8065,7 @@
     },
     "1390": {
      "name": "Vow of Learning",
-     "effect": "Pick two different options:\n• Deal 1 damage.\n• Deal 2 damage to a creature.\n• Give protected to a creature.\n• Give ward to a creature.",
+     "effect": "Pick two different options:\\n• Deal 1 damage.\\n• Deal 2 damage to a creature.\\n• Give protected to a creature.\\n• Give ward to a creature.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -8081,7 +8081,7 @@
     },
     "1391": {
      "name": "Defend the Ramparts",
-     "effect": "Deal 2 damage to two different enemy creatures.\nIf you control a structure, deal 3 damage instead.",
+     "effect": "Deal 2 damage to two different enemy creatures.\\nIf you control a structure, deal 3 damage instead.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -8097,7 +8097,7 @@
     },
     "1392": {
      "name": "Shaped Blast",
-     "effect": "Pick one --\nDeal 5 damage to each creature with frontline, or deal 3 damage to each creature without frontline.",
+     "effect": "Pick one --\\nDeal 5 damage to each creature with frontline, or deal 3 damage to each creature without frontline.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -8113,7 +8113,7 @@
     },
     "1393": {
      "name": "Volcanic Watcher",
-     "effect": "Order 10.\nWhen you summon a creature, give +1 health to this creature.\nAt the end of your turn, if this creature has 5 health or more, give spell boost +1 to it.",
+     "effect": "Order 10.\\nWhen you summon a creature, give +1 health to this creature.\\nAt the end of your turn, if this creature has 5 health or more, give spell boost +1 to it.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "atlantean",
@@ -8145,7 +8145,7 @@
     },
     "1395": {
      "name": "Aggravated Architect",
-     "effect": "Backline. Ward.\nAbility: Choose one of your Structures. Deal its strength as damage to a random enemy creature, then deal 1 damage to the Structure.",
+     "effect": "Backline. Ward.\\nAbility: Choose one of your Structures. Deal its strength as damage to a random enemy creature, then deal 1 damage to the Structure.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "mystic",
@@ -8193,7 +8193,7 @@
     },
     "1398": {
      "name": "Polyhymnia, Aetheric Hydra",
-     "effect": "Frontline. Protected. Ward. Armor 4.\nAt the end of your turn, give ward to this creature.",
+     "effect": "Frontline. Protected. Ward. Armor 4.\\nAt the end of your turn, give ward to this creature.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "aether",
@@ -8273,7 +8273,7 @@
     },
     "1401": {
      "name": "Planetar Acolyte",
-     "effect": "Blessed.\n(When summoned, delve 3 blessed effects and play one.)",
+     "effect": "Blessed.\\n(When summoned, delve 3 blessed effects and play one.)",
      "god": "neutral",
      "rarity": "common",
      "tribe": "aether",
@@ -8369,7 +8369,7 @@
     },
     "1407": {
      "name": "Thebian Elephant",
-     "effect": "Backline.\nAt the end of your turn, give +1/+1 to each of your creatures.",
+     "effect": "Backline.\\nAt the end of your turn, give +1/+1 to each of your creatures.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "olympian",
@@ -8385,7 +8385,7 @@
     },
     "1408": {
      "name": "Ogre Warlock",
-     "effect": "Ward.\nRoar: Give +X/+X to this creature, where X is your spell boost.",
+     "effect": "Ward.\\nRoar: Give +X/+X to this creature, where X is your spell boost.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "mystic",
@@ -8417,7 +8417,7 @@
     },
     "141": {
      "name": "Underhand Thug",
-     "effect": "Hidden for 1 turn.\nWhen this creature damages your opponent, replace a random card in their hand with an anim, enchanted weapon, or rune.",
+     "effect": "Hidden for 1 turn.\\nWhen this creature damages your opponent, replace a random card in their hand with an anim, enchanted weapon, or rune.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -8529,7 +8529,7 @@
     },
     "1416": {
      "name": "Venerable Paladin",
-     "effect": "Armor 1. Frontline.\nAfterlife: Give all of this creature’s armor to your weakest creature.",
+     "effect": "Armor 1. Frontline.\\nAfterlife: Give all of this creature’s armor to your weakest creature.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -8545,7 +8545,7 @@
     },
     "1417": {
      "name": "Exalted Hermit",
-     "effect": "Armor 1.\nAt the end of your turn, give +1 strength to this creature.",
+     "effect": "Armor 1.\\nAt the end of your turn, give +1 strength to this creature.",
      "god": "light",
      "rarity": "common",
      "tribe": "olympian",
@@ -8577,7 +8577,7 @@
     },
     "1419": {
      "name": "Illustrious Planetar",
-     "effect": "Blessed.\nAbility: Gain 5 favor for each Aether you control.",
+     "effect": "Blessed.\\nAbility: Gain 5 favor for each Aether you control.",
      "god": "light",
      "rarity": "common",
      "tribe": "aether",
@@ -8593,7 +8593,7 @@
     },
     "142": {
      "name": "Chainflip",
-     "effect": "Deal 10 damage to target enemy creature.\nAt the end of the turn, your opponent summons a random creature from their void.",
+     "effect": "Deal 10 damage to target enemy creature.\\nAt the end of the turn, your opponent summons a random creature from their void.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -8609,7 +8609,7 @@
     },
     "1420": {
      "name": "Zealous Ecclesiast",
-     "effect": "Blessed.\nRoar: For each other blessed creature, heal each friendly character for 2.",
+     "effect": "Blessed.\\nRoar: For each other blessed creature, heal each friendly character for 2.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -8625,7 +8625,7 @@
     },
     "1421": {
      "name": "Excommunicate",
-     "effect": "Pull an enemy creature from the board to the bottom of your opponent's deck.\nGain 7 favor.",
+     "effect": "Pull an enemy creature from the board to the bottom of your opponent's deck.\\nGain 7 favor.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -8657,7 +8657,7 @@
     },
     "1423": {
      "name": "Kadmos, Son of Lysander",
-     "effect": "Frontline. Armor 1.\nAfter this creature is attacked, give +1 armor to the Chosen One.\nRoar: A random six-mana creature in your deck becomes the Chosen One.",
+     "effect": "Frontline. Armor 1.\\nAfter this creature is attacked, give +1 armor to the Chosen One.\\nRoar: A random six-mana creature in your deck becomes the Chosen One.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -8673,7 +8673,7 @@
     },
     "1424": {
      "name": "Parthene Proscenium",
-     "effect": "Protected. Ward.\nAbility: Pick one --\n• Heal each friendly character for 3.\n• Give your weakest creature +3 strength.",
+     "effect": "Protected. Ward.\\nAbility: Pick one --\\n• Heal each friendly character for 3.\\n• Give your weakest creature +3 strength.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "structure",
@@ -8689,7 +8689,7 @@
     },
     "1425": {
      "name": "Thaeriel's Anvil",
-     "effect": "Backline. Ward. Can’t attack.\nAt the end of each turn, summon a 4/7 Divine Chains.",
+     "effect": "Backline. Ward. Can’t attack.\\nAt the end of each turn, summon a 4/7 Divine Chains.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "structure",
@@ -8705,7 +8705,7 @@
     },
     "1426": {
      "name": "Sern, The Moderator",
-     "effect": "After a creature is healed, draw a card. \nRoar: Inflict Order +3 on an enemy creature, then heal each friendly character for 2.",
+     "effect": "After a creature is healed, draw a card. \\nRoar: Inflict Order +3 on an enemy creature, then heal each friendly character for 2.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "",
@@ -8721,7 +8721,7 @@
     },
     "1427": {
      "name": "Divine Chains",
-     "effect": "Frontline.\nCreatures damaged by this creature gain order +2.",
+     "effect": "Frontline.\\nCreatures damaged by this creature gain order +2.",
      "god": "light",
      "rarity": "rare",
      "tribe": "structure",
@@ -8785,7 +8785,7 @@
     },
     "1430": {
      "name": "Golden-Winged Sphinx",
-     "effect": "Frontline. \nRoar: Give protected to your god.\nAfterlife: Give protected to your creatures until the end of the turn.",
+     "effect": "Frontline. \\nRoar: Give protected to your god.\\nAfterlife: Give protected to your creatures until the end of the turn.",
      "god": "light",
      "rarity": "epic",
      "tribe": "anubian",
@@ -8801,7 +8801,7 @@
     },
     "1431": {
      "name": "Animated Armory",
-     "effect": "Backline.\nCan't attack. Armor 1.\nAfter you summon an Olympian or Mystic creature, raise its armor to 1.",
+     "effect": "Backline.\\nCan't attack. Armor 1.\\nAfter you summon an Olympian or Mystic creature, raise its armor to 1.",
      "god": "light",
      "rarity": "epic",
      "tribe": "structure",
@@ -8817,7 +8817,7 @@
     },
     "1432": {
      "name": "Empyrean Pacifist",
-     "effect": "Backline.\nAfter you summon a creature, give +1 health to this creature. At the end of your turn, give frontline to this creature if it has 10 health or more.",
+     "effect": "Backline.\\nAfter you summon a creature, give +1 health to this creature. At the end of your turn, give frontline to this creature if it has 10 health or more.",
      "god": "light",
      "rarity": "epic",
      "tribe": "aether",
@@ -8881,7 +8881,7 @@
     },
     "1436": {
      "name": "Armor Lurker",
-     "effect": "Hidden. Armor 2.\nWhen this creature loses hidden,\nremove 1 armor from it.",
+     "effect": "Hidden. Armor 2.\\nWhen this creature loses hidden,\\nremove 1 armor from it.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "guild",
@@ -8897,7 +8897,7 @@
     },
     "1437": {
      "name": "Grand Vault",
-     "effect": "Frontline.\nCan't attack. Armor 1.\nAfterlife: Your opponent draws two cards.",
+     "effect": "Frontline.\\nCan't attack. Armor 1.\\nAfterlife: Your opponent draws two cards.",
      "god": "deception",
      "rarity": "common",
      "tribe": "structure",
@@ -8929,7 +8929,7 @@
     },
     "1439": {
      "name": "Plate Pilferer",
-     "effect": "Blitz.\nAfter this creature attacks another creature, it takes all their armor.",
+     "effect": "Blitz.\\nAfter this creature attacks another creature, it takes all their armor.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "guild",
@@ -8945,7 +8945,7 @@
     },
     "144": {
      "name": "Tyr, The Just",
-     "effect": "Blitz.\nAfter this takes damage, it gets +5 strength.",
+     "effect": "Blitz.\\nAfter this takes damage, it gets +5 strength.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "viking",
@@ -8977,7 +8977,7 @@
     },
     "1441": {
      "name": "Ludia's Dedicant",
-     "effect": "Blessed.\nAfter you use your god power, copy a random card from your opponent's deck and add it to your hand.",
+     "effect": "Blessed.\\nAfter you use your god power, copy a random card from your opponent's deck and add it to your hand.",
      "god": "deception",
      "rarity": "common",
      "tribe": "mystic",
@@ -8993,7 +8993,7 @@
     },
     "1442": {
      "name": "Pray to Win",
-     "effect": "Blessed.\nAdd a random card from the opposing god's domain to your hand.",
+     "effect": "Blessed.\\nAdd a random card from the opposing god's domain to your hand.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -9009,7 +9009,7 @@
     },
     "1443": {
      "name": "Professor of Murder",
-     "effect": "Hidden.\nAfter one of your creatures attacks, give it hidden for one turn.\nRoar: Give flank to your other creatures.",
+     "effect": "Hidden.\\nAfter one of your creatures attacks, give it hidden for one turn.\\nRoar: Give flank to your other creatures.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "guild",
@@ -9041,7 +9041,7 @@
     },
     "1445": {
      "name": "Demolitions Expert",
-     "effect": "Order 3.\nWhen this creature loses order, destroy a random enemy creature with frontline.",
+     "effect": "Order 3.\\nWhen this creature loses order, destroy a random enemy creature with frontline.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -9057,7 +9057,7 @@
     },
     "1446": {
      "name": "Prison Escapee",
-     "effect": "Order 3.\nWhen this creature loses order, summon another Prison Escapee.",
+     "effect": "Order 3.\\nWhen this creature loses order, summon another Prison Escapee.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "guild",
@@ -9089,7 +9089,7 @@
     },
     "1448": {
      "name": "Scylla, Carnival Ringleader",
-     "effect": "Order 3.\nWhen this creature loses order, transform it into 5/5 Shimmerscales and give +5 burn to each other creature.",
+     "effect": "Order 3.\\nWhen this creature loses order, transform it into 5/5 Shimmerscales and give +5 burn to each other creature.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "dragon",
@@ -9105,7 +9105,7 @@
     },
     "1449": {
      "name": "Lady Marcella",
-     "effect": "Roar: Summon two Rogue Skulkers with deadly.\nAfterlife: Summon two Rogue Skulkers with deadly for your opponent.",
+     "effect": "Roar: Summon two Rogue Skulkers with deadly.\\nAfterlife: Summon two Rogue Skulkers with deadly for your opponent.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "guild",
@@ -9137,7 +9137,7 @@
     },
     "1450": {
      "name": "Shadow Matriarch",
-     "effect": "Hidden for 1 turn.\nAt the start of your turn, summon a Shadow of Lethenon.",
+     "effect": "Hidden for 1 turn.\\nAt the start of your turn, summon a Shadow of Lethenon.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "nether",
@@ -9153,7 +9153,7 @@
     },
     "1451": {
      "name": "The Hollow",
-     "effect": "Backline. Ward. \nAfter a friendly creature loses order, add a random Guild creature to your hand.\nAbility: Pick one -- Give a friendly creature +2, +3 or +4 order.",
+     "effect": "Backline. Ward. \\nAfter a friendly creature loses order, add a random Guild creature to your hand.\\nAbility: Pick one -- Give a friendly creature +2, +3 or +4 order.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "structure",
@@ -9201,7 +9201,7 @@
     },
     "1454": {
      "name": "Helm Hustler",
-     "effect": "Backline.\nAbility: This creature takes 1 armor from an enemy creature, then deals this creature's armor as damage to it.",
+     "effect": "Backline.\\nAbility: This creature takes 1 armor from an enemy creature, then deals this creature's armor as damage to it.",
      "god": "deception",
      "rarity": "epic",
      "tribe": "guild",
@@ -9233,7 +9233,7 @@
     },
     "1456": {
      "name": "Snapping Turtle",
-     "effect": "Armor 2.\nAt the end of your turn, give +2 armor to this creature. At the start of your turn, it loses 2 armor.",
+     "effect": "Armor 2.\\nAt the end of your turn, give +2 armor to this creature. At the start of your turn, it loses 2 armor.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "wild",
@@ -9265,7 +9265,7 @@
     },
     "1458": {
      "name": "Spiny Porcupine",
-     "effect": "Armor 4.\nAfter this creature survives an attack by an enemy creature, deal 2 damage to the enemy creature.",
+     "effect": "Armor 4.\\nAfter this creature survives an attack by an enemy creature, deal 2 damage to the enemy creature.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "wild",
@@ -9313,7 +9313,7 @@
     },
     "1460": {
      "name": "Celestial Stag",
-     "effect": "Blessed.\nAfter you play your first creature each turn (excluding this creature), add a random Nature card to your hand.",
+     "effect": "Blessed.\\nAfter you play your first creature each turn (excluding this creature), add a random Nature card to your hand.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "wild",
@@ -9329,7 +9329,7 @@
     },
     "1461": {
      "name": "New Growth",
-     "effect": "Blessed.\nAdd a random Nature card to your hand.",
+     "effect": "Blessed.\\nAdd a random Nature card to your hand.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -9377,7 +9377,7 @@
     },
     "1464": {
      "name": "Falling Star",
-     "effect": "Give your opponent's strongest creature burn +6.\nSummon three 1/2 Badgers with confused.\nYour creatures gain +1 strength.",
+     "effect": "Give your opponent's strongest creature burn +6.\\nSummon three 1/2 Badgers with confused.\\nYour creatures gain +1 strength.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -9393,7 +9393,7 @@
     },
     "1465": {
      "name": "Sage of Renewal",
-     "effect": "Regen +2.\nAfter a friendly creature enters the board, give it regen +2.\nAfter an enemy creature enters the board, give it confusion.",
+     "effect": "Regen +2.\\nAfter a friendly creature enters the board, give it regen +2.\\nAfter an enemy creature enters the board, give it confusion.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "mystic",
@@ -9409,7 +9409,7 @@
     },
     "1466": {
      "name": "Ominous Burrow",
-     "effect": "Backline.\nAt the start of your turn, summon a random 5 mana Wild creature from your deck and destroy this creature.",
+     "effect": "Backline.\\nAt the start of your turn, summon a random 5 mana Wild creature from your deck and destroy this creature.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "structure",
@@ -9425,7 +9425,7 @@
     },
     "1467": {
      "name": "Blood and Bone",
-     "effect": "Deal 1 damage to your opponent's god.\nAdd a random Nature card to your hand.",
+     "effect": "Deal 1 damage to your opponent's god.\\nAdd a random Nature card to your hand.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -9457,7 +9457,7 @@
     },
     "1469": {
      "name": "Raging Giant",
-     "effect": "Confused. Twin strike.\nRoar: If you are frenzied, give +1 armor to this creature.",
+     "effect": "Confused. Twin strike.\\nRoar: If you are frenzied, give +1 armor to this creature.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "amazon",
@@ -9489,7 +9489,7 @@
     },
     "1470": {
      "name": "Vicious Manticore",
-     "effect": "Blitz. Overkill.\nAt the end of your turn, if you are frenzied, deal 3 damage to your opponent's god.",
+     "effect": "Blitz. Overkill.\\nAt the end of your turn, if you are frenzied, deal 3 damage to your opponent's god.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "wild",
@@ -9505,7 +9505,7 @@
     },
     "1471": {
      "name": "General Orythia",
-     "effect": "Frontline.\nRoar: Summon two 1/1 Amazon Recruits, then give each of your other Amazons +2/+2 and twin strike.",
+     "effect": "Frontline.\\nRoar: Summon two 1/1 Amazon Recruits, then give each of your other Amazons +2/+2 and twin strike.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "amazon",
@@ -9521,7 +9521,7 @@
     },
     "1472": {
      "name": "Watchtower of Agrodor",
-     "effect": "Backline. Ability: Pick one --\nSummon an Agrodor Protector, a Tainted Treant, or three Vibrant Fruits.",
+     "effect": "Backline. Ability: Pick one --\\nSummon an Agrodor Protector, a Tainted Treant, or three Vibrant Fruits.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "structure",
@@ -9617,7 +9617,7 @@
     },
     "1478": {
      "name": "Tenderizer",
-     "effect": "Blitz.\nAfter you attack a creature with this relic, give it +1 durability (if it has any remaining).",
+     "effect": "Blitz.\\nAfter you attack a creature with this relic, give it +1 durability (if it has any remaining).",
      "god": "war",
      "rarity": "epic",
      "tribe": "",
@@ -9633,7 +9633,7 @@
     },
     "1479": {
      "name": "Echoing Fury",
-     "effect": "Blessed.\nGive twin strike to one of your creatures.",
+     "effect": "Blessed.\\nGive twin strike to one of your creatures.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -9665,7 +9665,7 @@
     },
     "1480": {
      "name": "Battle Artisan",
-     "effect": "Blessed.\nAfter this creature attacks, add a random relic to your hand.",
+     "effect": "Blessed.\\nAfter this creature attacks, add a random relic to your hand.",
      "god": "war",
      "rarity": "rare",
      "tribe": "olympian",
@@ -9697,7 +9697,7 @@
     },
     "1482": {
      "name": "Chieftain of Impulse",
-     "effect": "Blitz.\nAfter a friendly creature enters the board, give it blitz and +2 strength.",
+     "effect": "Blitz.\\nAfter a friendly creature enters the board, give it blitz and +2 strength.",
      "god": "war",
      "rarity": "rare",
      "tribe": "viking",
@@ -9745,7 +9745,7 @@
     },
     "1485": {
      "name": "Oddi, Valka’s Herald",
-     "effect": "Protected.\nWhenever this creature attacks your opponent's god, reduce a random highest mana cost creature in your hand by 1.",
+     "effect": "Protected.\\nWhenever this creature attacks your opponent's god, reduce a random highest mana cost creature in your hand by 1.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "viking",
@@ -9761,7 +9761,7 @@
     },
     "1486": {
      "name": "Anagreos, Daemon Prince",
-     "effect": "Godblitz.\nWhen this creature destroys another creature, obliterate it instead.\nRoar: Deal 6 damage to each enemy creature.",
+     "effect": "Godblitz.\\nWhen this creature destroys another creature, obliterate it instead.\\nRoar: Deal 6 damage to each enemy creature.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "",
@@ -9777,7 +9777,7 @@
     },
     "1487": {
      "name": "Grand Hall",
-     "effect": "Frontline. Can't attack.\nRoar: Give each of your creatures leech and +1 strength.",
+     "effect": "Frontline. Can't attack.\\nRoar: Give each of your creatures leech and +1 strength.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "structure",
@@ -9809,7 +9809,7 @@
     },
     "1489": {
      "name": "Archangel Bruiser",
-     "effect": "Blitz.\nRoar: If you are frenzied, give overkill to this creature.",
+     "effect": "Blitz.\\nRoar: If you are frenzied, give overkill to this creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "aether",
@@ -9825,7 +9825,7 @@
     },
     "149": {
      "name": "Tyet, Heir To The Sky",
-     "effect": "Flank. Frontline. Twin strike. Ward.\nAt the end of each turn, this creature gets ward.\nRoar: This creature gets +2/+1 for each card in your hand.",
+     "effect": "Flank. Frontline. Twin strike. Ward.\\nAt the end of each turn, this creature gets ward.\\nRoar: This creature gets +2/+1 for each card in your hand.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "anubian",
@@ -9905,7 +9905,7 @@
     },
     "15": {
      "name": "Respected Jarl",
-     "effect": "Blitz.\nRoar: Give a friendly damaged creature twin strike and +1 strength.",
+     "effect": "Blitz.\\nRoar: Give a friendly damaged creature twin strike and +1 strength.",
      "god": "war",
      "rarity": "epic",
      "tribe": "viking",
@@ -9921,7 +9921,7 @@
     },
     "150": {
      "name": "Nephthys Guardian",
-     "effect": "Frontline.\nAfterlife: A random friendly Anubian becomes protected and gets +1/+1.",
+     "effect": "Frontline.\\nAfterlife: A random friendly Anubian becomes protected and gets +1/+1.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "anubian",
@@ -9937,7 +9937,7 @@
     },
     "151": {
      "name": "The Gatekeeper",
-     "effect": "Backline.\nAt the end of your turn, summon a random creature from your void.",
+     "effect": "Backline.\\nAt the end of your turn, summon a random creature from your void.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "nether",
@@ -9953,7 +9953,7 @@
     },
     "152": {
      "name": "Odysseus, Tried Victor",
-     "effect": "Frontline.\nRoar: Summon three 1/1 Injured Soldiers with frontline, and Odysseus, Tried Victor takes 6 damage.",
+     "effect": "Frontline.\\nRoar: Summon three 1/1 Injured Soldiers with frontline, and Odysseus, Tried Victor takes 6 damage.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -10049,7 +10049,7 @@
     },
     "158": {
      "name": "Wizened Warlock",
-     "effect": "Ward.\nAt the end of your turn, deal 1 damage to a random enemy.",
+     "effect": "Ward.\\nAt the end of your turn, deal 1 damage to a random enemy.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "amazon",
@@ -10065,7 +10065,7 @@
     },
     "159": {
      "name": "Bulwark of the Sky",
-     "effect": "Frontline.\nAfterlife: If you're holding an Aether, deal 2 damage to each enemy creature.",
+     "effect": "Frontline.\\nAfterlife: If you're holding an Aether, deal 2 damage to each enemy creature.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "aether",
@@ -10081,7 +10081,7 @@
     },
     "16": {
      "name": "Faustian Pact",
-     "effect": "Draw nine cards.\nAt the end of your turn, obliterate your hand.",
+     "effect": "Draw nine cards.\\nAt the end of your turn, obliterate your hand.",
      "god": "death",
      "rarity": "epic",
      "tribe": "",
@@ -10097,7 +10097,7 @@
     },
     "160": {
      "name": "Dangerous Ritual",
-     "effect": "Deal 4 damage to each god.\nDraw a card.",
+     "effect": "Deal 4 damage to each god.\\nDraw a card.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -10113,7 +10113,7 @@
     },
     "161": {
      "name": "Apocalypse Now",
-     "effect": "Destroy all creatures.\nDestroy all creatures again.",
+     "effect": "Destroy all creatures.\\nDestroy all creatures again.",
      "god": "death",
      "rarity": "epic",
      "tribe": "",
@@ -10129,7 +10129,7 @@
     },
     "162": {
      "name": "Tormentor Fiend",
-     "effect": "Blitz.\nRoar: Other friendly creatures gain leech until end of turn.",
+     "effect": "Blitz.\\nRoar: Other friendly creatures gain leech until end of turn.",
      "god": "war",
      "rarity": "epic",
      "tribe": "nether",
@@ -10145,7 +10145,7 @@
     },
     "163": {
      "name": "Mercenary Daemon",
-     "effect": "Frontline.\nRoar: Give an enemy creature frontline.",
+     "effect": "Frontline.\\nRoar: Give an enemy creature frontline.",
      "god": "war",
      "rarity": "common",
      "tribe": "nether",
@@ -10289,7 +10289,7 @@
     },
     "171": {
      "name": "Will O' Wisp",
-     "effect": "Ward.\nRoar: Summon a Will O' Wisp.",
+     "effect": "Ward.\\nRoar: Summon a Will O' Wisp.",
      "god": "light",
      "rarity": "common",
      "tribe": "mystic",
@@ -10369,7 +10369,7 @@
     },
     "176": {
      "name": "Dense Fog",
-     "effect": "All enemy characters become confused.\nAt the start of your next turn, become no longer confused.",
+     "effect": "All enemy characters become confused.\\nAt the start of your next turn, become no longer confused.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "",
@@ -10401,7 +10401,7 @@
     },
     "178": {
      "name": "Ancient Texts",
-     "effect": "Pick one —\n· Deal 2 damage, or\n· A friendly character becomes protected.",
+     "effect": "Pick one —\\n· Deal 2 damage, or\\n· A friendly character becomes protected.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -10433,7 +10433,7 @@
     },
     "18": {
      "name": "Levitate",
-     "effect": "Remove frontline and backline from target creature.\nDraw a card.",
+     "effect": "Remove frontline and backline from target creature.\\nDraw a card.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -10529,7 +10529,7 @@
     },
     "185": {
      "name": "Aquatic Torturer",
-     "effect": "Can't attack gods.\nRoar: If you control another Atlantean, your Atlanteans gain flank and this creature loses \"can't attack gods.\"",
+     "effect": "Can't attack gods.\\nRoar: If you control another Atlantean, your Atlanteans gain flank and this creature loses \"can't attack gods.\"",
      "god": "neutral",
      "rarity": "common",
      "tribe": "atlantean",
@@ -10577,7 +10577,7 @@
     },
     "188": {
      "name": "Rockdrake Egg",
-     "effect": "Burn 2. Cannot attack.\nAfterlife: If you have 6 cards or more in hand, summon a 6/5 Rockdrake.",
+     "effect": "Burn 2. Cannot attack.\\nAfterlife: If you have 6 cards or more in hand, summon a 6/5 Rockdrake.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "dragon",
@@ -10721,7 +10721,7 @@
     },
     "196": {
      "name": "Master Tactician",
-     "effect": "Protected.\nRoar: All other friendly creatures gain flank until end of turn.",
+     "effect": "Protected.\\nRoar: All other friendly creatures gain flank until end of turn.",
      "god": "war",
      "rarity": "rare",
      "tribe": "viking",
@@ -10769,7 +10769,7 @@
     },
     "199": {
      "name": "Shadow Scryer",
-     "effect": "Protected. Ward.\nAt the start of your turn, foresee 1.",
+     "effect": "Protected. Ward.\\nAt the start of your turn, foresee 1.",
      "god": "magic",
      "rarity": "common",
      "tribe": "mystic",
@@ -10785,7 +10785,7 @@
     },
     "2": {
      "name": "Siren of the Grave",
-     "effect": "Roar: Obliterate a card in your hand.\nAfterlife: All enemy creatures go to sleep.",
+     "effect": "Roar: Obliterate a card in your hand.\\nAfterlife: All enemy creatures go to sleep.",
      "god": "death",
      "rarity": "rare",
      "tribe": "",
@@ -10833,7 +10833,7 @@
     },
     "201": {
      "name": "Mugging",
-     "effect": "Target an enemy creature.\nSummon three 1/1 Rogue Skulkers to attack the target.",
+     "effect": "Target an enemy creature.\\nSummon three 1/1 Rogue Skulkers to attack the target.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -10849,7 +10849,7 @@
     },
     "202": {
      "name": "Shade Walker",
-     "effect": "Hidden.\nAt the end of your turn, this creature gets +1 strength.",
+     "effect": "Hidden.\\nAt the end of your turn, this creature gets +1 strength.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "atlantean",
@@ -10945,7 +10945,7 @@
     },
     "208": {
      "name": "Thresher Bug",
-     "effect": "Confused.\nAfter this creature attacks a creature, deal 2 damage to a random enemy creature.",
+     "effect": "Confused.\\nAfter this creature attacks a creature, deal 2 damage to a random enemy creature.",
      "god": "nature",
      "rarity": "common",
      "tribe": "nether",
@@ -10961,7 +10961,7 @@
     },
     "209": {
      "name": "Paragon of Fortune",
-     "effect": "Roar: Pick one –\n· Give a friendly creature +4/+2, or\n· Give a friendly creature +2/+4.",
+     "effect": "Roar: Pick one –\\n· Give a friendly creature +4/+2, or\\n· Give a friendly creature +2/+4.",
      "god": "war",
      "rarity": "common",
      "tribe": "olympian",
@@ -11041,7 +11041,7 @@
     },
     "213": {
      "name": "Prodigious Armourer",
-     "effect": "Backline.\nAt the end of your turn, give +1 health to another random friendly creature.",
+     "effect": "Backline.\\nAt the end of your turn, give +1 health to another random friendly creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "guild",
@@ -11137,7 +11137,7 @@
     },
     "219": {
      "name": "Nimble Pixie",
-     "effect": "Flank.\nRoar: Summon a Nimble Pixie.",
+     "effect": "Flank.\\nRoar: Summon a Nimble Pixie.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "amazon",
@@ -11153,7 +11153,7 @@
     },
     "22": {
      "name": "Anubis, Guide of Souls",
-     "effect": "Backline.\nWhenever a friendly Anubian dies, draw a card.",
+     "effect": "Backline.\\nWhenever a friendly Anubian dies, draw a card.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "anubian",
@@ -11185,7 +11185,7 @@
     },
     "221": {
      "name": "Sit Down",
-     "effect": "Set a creature's strength to 0.\nAt the start of your next turn, set it to its base value.",
+     "effect": "Set a creature's strength to 0.\\nAt the start of your next turn, set it to its base value.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -11201,7 +11201,7 @@
     },
     "222": {
      "name": "Bast's Claws",
-     "effect": "Godblitz.\nWhenever you attack, give +1/+1 to a random creature in your hand.",
+     "effect": "Godblitz.\\nWhenever you attack, give +1/+1 to a random creature in your hand.",
      "god": "war",
      "rarity": "rare",
      "tribe": "",
@@ -11265,7 +11265,7 @@
     },
     "226": {
      "name": "Conniving Djinn",
-     "effect": "Burn 1.\nRoar: Give burn +1 to an enemy creature.",
+     "effect": "Burn 1.\\nRoar: Give burn +1 to an enemy creature.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -11313,7 +11313,7 @@
     },
     "229": {
      "name": "Phalanx Champion",
-     "effect": "Frontline.\nRoar: Gain +1 health for every two Olympians in your void.",
+     "effect": "Frontline.\\nRoar: Gain +1 health for every two Olympians in your void.",
      "god": "light",
      "rarity": "rare",
      "tribe": "olympian",
@@ -11361,7 +11361,7 @@
     },
     "231": {
      "name": "Pyramid Warden",
-     "effect": "Frontline.\nAfterlife: Your opponent summons a random creature from their void.",
+     "effect": "Frontline.\\nAfterlife: Your opponent summons a random creature from their void.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "anubian",
@@ -11505,7 +11505,7 @@
     },
     "24": {
      "name": "Midnight Cat",
-     "effect": "Flank.\nRoar: Give a friendly creature flank.",
+     "effect": "Flank.\\nRoar: Give a friendly creature flank.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "wild",
@@ -11553,7 +11553,7 @@
     },
     "242": {
      "name": "Advocate of Brilliance",
-     "effect": "Spell boost +1.\nRoar: Draw a card.",
+     "effect": "Spell boost +1.\\nRoar: Draw a card.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "aether",
@@ -11601,7 +11601,7 @@
     },
     "245": {
      "name": "Pyrrhic Incantation",
-     "effect": "Give target creature burn +14.\nDeal 3 damage to your god.",
+     "effect": "Give target creature burn +14.\\nDeal 3 damage to your god.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -11617,7 +11617,7 @@
     },
     "246": {
      "name": "Trojan Golem",
-     "effect": "Frontline.\nAfterlife: Summon a 1/1 Injured Soldier with frontline.",
+     "effect": "Frontline.\\nAfterlife: Summon a 1/1 Injured Soldier with frontline.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "olympian",
@@ -11649,7 +11649,7 @@
     },
     "248": {
      "name": "Reflection Elementalist",
-     "effect": "Ward.\nRoar: Transform a friendly creature into a Reflection Elementalist.",
+     "effect": "Ward.\\nRoar: Transform a friendly creature into a Reflection Elementalist.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "mystic",
@@ -11681,7 +11681,7 @@
     },
     "25": {
      "name": "Odin, Endless War",
-     "effect": "At the end of each turn, summon a Foolhardy Beserker.\nRoar: Pick one —\n· Give +5/+3 to a friendly creature, or\n· Give +3/+10 to a random creature in your hand.",
+     "effect": "At the end of each turn, summon a Foolhardy Beserker.\\nRoar: Pick one —\\n· Give +5/+3 to a friendly creature, or\\n· Give +3/+10 to a random creature in your hand.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "viking",
@@ -11697,7 +11697,7 @@
     },
     "250": {
      "name": "Three's a Crowd",
-     "effect": "Pull two random enemy creatures from the board into their controller's hand.\nSummon a 3/2 golem.",
+     "effect": "Pull two random enemy creatures from the board into their controller's hand.\\nSummon a 3/2 golem.",
      "god": "deception",
      "rarity": "epic",
      "tribe": "",
@@ -11713,7 +11713,7 @@
     },
     "251": {
      "name": "Flying Carpet",
-     "effect": "Roar: Pick one –\n· This creature gains ward, or\n· Foresee 1.",
+     "effect": "Roar: Pick one –\\n· This creature gains ward, or\\n· Foresee 1.",
      "god": "magic",
      "rarity": "common",
      "tribe": "mystic",
@@ -11745,7 +11745,7 @@
     },
     "253": {
      "name": "Wasteful Shax",
-     "effect": "Regen 2.\nAt the end of your opponents turn, obliterate a random creature in your hand. Destroy Wasteful Shax if you cannot.",
+     "effect": "Regen 2.\\nAt the end of your opponents turn, obliterate a random creature in your hand. Destroy Wasteful Shax if you cannot.",
      "god": "death",
      "rarity": "common",
      "tribe": "nether",
@@ -11809,7 +11809,7 @@
     },
     "257": {
      "name": "La Bolefuego",
-     "effect": "Roar: Pull all spells in your opponent's hand onto the top of their deck. \nFor each spell moved, give them a Rune Of Sight.",
+     "effect": "Roar: Pull all spells in your opponent's hand onto the top of their deck. \\nFor each spell moved, give them a Rune Of Sight.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "aether",
@@ -11873,7 +11873,7 @@
     },
     "260": {
      "name": "Avatar of War",
-     "effect": "Leech.\nRoar: Equip 5/2 Sentient Flameblades with godblitz and \"After you attack, heal your god for 5.\"",
+     "effect": "Leech.\\nRoar: Equip 5/2 Sentient Flameblades with godblitz and \"After you attack, heal your god for 5.\"",
      "god": "war",
      "rarity": "legendary",
      "tribe": "",
@@ -11953,7 +11953,7 @@
     },
     "265": {
      "name": "False Peace",
-     "effect": "Two random enemy creatures go to sleep.\nTwo random friendly creatures go to sleep and they each get +3 strength.",
+     "effect": "Two random enemy creatures go to sleep.\\nTwo random friendly creatures go to sleep and they each get +3 strength.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -11985,7 +11985,7 @@
     },
     "267": {
      "name": "Sarcophagus",
-     "effect": "Cannot attack. Burn 2.\nAfterlife: Summon another random Anubian from your void.",
+     "effect": "Cannot attack. Burn 2.\\nAfterlife: Summon another random Anubian from your void.",
      "god": "death",
      "rarity": "common",
      "tribe": "anubian",
@@ -12065,7 +12065,7 @@
     },
     "271": {
      "name": "Revenant Lynx",
-     "effect": "Confused.\nRoar: Refresh 2 mana.",
+     "effect": "Confused.\\nRoar: Refresh 2 mana.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "wild",
@@ -12097,7 +12097,7 @@
     },
     "273": {
      "name": "Rampaging Leviathan",
-     "effect": "Confused. Overkill.\nRoar: Deal 5 damage to a random enemy creature.",
+     "effect": "Confused. Overkill.\\nRoar: Deal 5 damage to a random enemy creature.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "",
@@ -12193,7 +12193,7 @@
     },
     "279": {
      "name": "Seraph",
-     "effect": "Frontline. Protected.\nAfterlife: Set the attack of all enemy creatures to 1.",
+     "effect": "Frontline. Protected.\\nAfterlife: Set the attack of all enemy creatures to 1.",
      "god": "light",
      "rarity": "epic",
      "tribe": "aether",
@@ -12273,7 +12273,7 @@
     },
     "283": {
      "name": "Hypnos Puzzle Box",
-     "effect": "Target creature goes to sleep.\nAdd two random runes, anims, or enchanted weapons to each god's hand.",
+     "effect": "Target creature goes to sleep.\\nAdd two random runes, anims, or enchanted weapons to each god's hand.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -12337,7 +12337,7 @@
     },
     "287": {
      "name": "The Cleansing",
-     "effect": "Set the strength and health of all creatures to their base and remove burn and sleep from them.\nDraw a card.",
+     "effect": "Set the strength and health of all creatures to their base and remove burn and sleep from them.\\nDraw a card.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -12369,7 +12369,7 @@
     },
     "289": {
      "name": "Alms For Service",
-     "effect": "Fully heal target friendly creature.\nHeal your god for 4.",
+     "effect": "Fully heal target friendly creature.\\nHeal your god for 4.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -12417,7 +12417,7 @@
     },
     "291": {
      "name": "Faraday Cage",
-     "effect": "Target a creature.\nDeal 2 damage to each other creature.",
+     "effect": "Target a creature.\\nDeal 2 damage to each other creature.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -12433,7 +12433,7 @@
     },
     "292": {
      "name": "Gunpowder Plot",
-     "effect": "Give each creature burn +1.\nAdd a mana lock to your opponent's mana gems.",
+     "effect": "Give each creature burn +1.\\nAdd a mana lock to your opponent's mana gems.",
      "god": "war",
      "rarity": "rare",
      "tribe": "",
@@ -12465,7 +12465,7 @@
     },
     "294": {
      "name": "Cavern Arachne",
-     "effect": "Frontline. Roar: Pick one –\n· Deal 6 damage to your god, or\n· Obliterate a card in your hand.",
+     "effect": "Frontline. Roar: Pick one –\\n· Deal 6 damage to your god, or\\n· Obliterate a card in your hand.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "nether",
@@ -12481,7 +12481,7 @@
     },
     "295": {
      "name": "Ferocious Rougarou",
-     "effect": "Regen 2.\nWhen a friendly creature is summoned, this creature gets +1/+1.\nWhen a friendly creature dies, this creature takes 1 damage.",
+     "effect": "Regen 2.\\nWhen a friendly creature is summoned, this creature gets +1/+1.\\nWhen a friendly creature dies, this creature takes 1 damage.",
      "god": "nature",
      "rarity": "common",
      "tribe": "amazon",
@@ -12497,7 +12497,7 @@
     },
     "296": {
      "name": "Swashbuckler",
-     "effect": "Twin strike.\nRoar: Deal 1 damage.",
+     "effect": "Twin strike.\\nRoar: Deal 1 damage.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "guild",
@@ -12513,7 +12513,7 @@
     },
     "297": {
      "name": "Dead Man's Flail",
-     "effect": "Godblitz.\nAt the end of each turn, deal 1 damage to your god.\nAfterlife: Deal 1 damage to each creature.",
+     "effect": "Godblitz.\\nAt the end of each turn, deal 1 damage to your god.\\nAfterlife: Deal 1 damage to each creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -12529,7 +12529,7 @@
     },
     "298": {
      "name": "Runaway Trebuchet",
-     "effect": "Blitz.\nRoar: Deal 2 damage to a random enemy creature.",
+     "effect": "Blitz.\\nRoar: Deal 2 damage to a random enemy creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "structure",
@@ -12577,7 +12577,7 @@
     },
     "30": {
      "name": "Radiant Guardian",
-     "effect": "Frontline.\nRoar: Set an enemy creature's health to 2.",
+     "effect": "Frontline.\\nRoar: Set an enemy creature's health to 2.",
      "god": "light",
      "rarity": "common",
      "tribe": "aether",
@@ -12625,7 +12625,7 @@
     },
     "302": {
      "name": "Lightfoot Informant",
-     "effect": "Hidden for 1 turn.\nRoar: Add a copy of a random spell from your opponent's deck to your hand.",
+     "effect": "Hidden for 1 turn.\\nRoar: Add a copy of a random spell from your opponent's deck to your hand.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -12657,7 +12657,7 @@
     },
     "304": {
      "name": "The Harvester",
-     "effect": "Whenever a creature dies, deal 2 damage to both gods.\nWhen your god takes damage, heal your god for 2.\nWhen your god is healed, this creature gets +1 strength.",
+     "effect": "Whenever a creature dies, deal 2 damage to both gods.\\nWhen your god takes damage, heal your god for 2.\\nWhen your god is healed, this creature gets +1 strength.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "nether",
@@ -12737,7 +12737,7 @@
     },
     "309": {
      "name": "Demoralise",
-     "effect": "Deal 1 damage to each damaged creature.\nAt the end of the turn, draw a card.",
+     "effect": "Deal 1 damage to each damaged creature.\\nAt the end of the turn, draw a card.",
      "god": "war",
      "rarity": "epic",
      "tribe": "",
@@ -12753,7 +12753,7 @@
     },
     "31": {
      "name": "Photogenesis",
-     "effect": "Add four random Nature cards to your hand.\nRefresh six mana.",
+     "effect": "Add four random Nature cards to your hand.\\nRefresh six mana.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -12769,7 +12769,7 @@
     },
     "310": {
      "name": "Equivalent Exchange",
-     "effect": "Obliterate two cards in your hand. Pick one:\n· Unlock two mana locks, or\n· Draw two cards.",
+     "effect": "Obliterate two cards in your hand. Pick one:\\n· Unlock two mana locks, or\\n· Draw two cards.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -12849,7 +12849,7 @@
     },
     "315": {
      "name": "Lord of Whispers",
-     "effect": "Hidden. Flank.\nWhen this creature damages your opponent, add a copy of a card from your opponent's deck to your hand.",
+     "effect": "Hidden. Flank.\\nWhen this creature damages your opponent, add a copy of a card from your opponent's deck to your hand.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -12897,7 +12897,7 @@
     },
     "318": {
      "name": "Lightdaemon King",
-     "effect": "Backline.\nAbility: Set a creature's health to 2.",
+     "effect": "Backline.\\nAbility: Set a creature's health to 2.",
      "god": "light",
      "rarity": "rare",
      "tribe": "aether",
@@ -12913,7 +12913,7 @@
     },
     "319": {
      "name": "Griffith, The Chosen",
-     "effect": "Protected. Ward.\nRoar: Set the strength of all other creatures with strength 4 or more to 1.",
+     "effect": "Protected. Ward.\\nRoar: Set the strength of all other creatures with strength 4 or more to 1.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "",
@@ -12961,7 +12961,7 @@
     },
     "321": {
      "name": "Forty Days",
-     "effect": "Draw a card.\nGive two friendly creatures \"Afterlife: Shuffle this creature into your deck.\"",
+     "effect": "Draw a card.\\nGive two friendly creatures \"Afterlife: Shuffle this creature into your deck.\"",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -13089,7 +13089,7 @@
     },
     "329": {
      "name": "Labyrinth Minotaur",
-     "effect": "Roar: Pick one –\n· Attack target enemy creature, or\n· Gain hidden for 1 turn.",
+     "effect": "Roar: Pick one –\\n· Attack target enemy creature, or\\n· Gain hidden for 1 turn.",
      "god": "deception",
      "rarity": "epic",
      "tribe": "",
@@ -13121,7 +13121,7 @@
     },
     "330": {
      "name": "Smoke Bomb",
-     "effect": "Burn 1.\nAfter this creature attacks, give it and another random friendly creature hidden for 1 turn.",
+     "effect": "Burn 1.\\nAfter this creature attacks, give it and another random friendly creature hidden for 1 turn.",
      "god": "deception",
      "rarity": "common",
      "tribe": "atlantean",
@@ -13169,7 +13169,7 @@
     },
     "333": {
      "name": "Needle-Fang Chameleon",
-     "effect": "Hidden for 1 turn.\nCreatures damaged by this creature get burn +1.",
+     "effect": "Hidden for 1 turn.\\nCreatures damaged by this creature get burn +1.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "wild",
@@ -13217,7 +13217,7 @@
     },
     "336": {
      "name": "Kidnapper",
-     "effect": "Deadly.\nAfter Kidnapper attacks a creature, pull the attacked creature into your hand.",
+     "effect": "Deadly.\\nAfter Kidnapper attacks a creature, pull the attacked creature into your hand.",
      "god": "deception",
      "rarity": "epic",
      "tribe": "guild",
@@ -13249,7 +13249,7 @@
     },
     "339": {
      "name": "Locusta, Solution Expert",
-     "effect": "Deadly.\nRoar: Give a creature +3/-3.",
+     "effect": "Deadly.\\nRoar: Give a creature +3/-3.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "guild",
@@ -13313,7 +13313,7 @@
     },
     "342": {
      "name": "Avatar of Deception",
-     "effect": "Hidden.\nRoar: A random enemy creature becomes confused and goes to sleep.",
+     "effect": "Hidden.\\nRoar: A random enemy creature becomes confused and goes to sleep.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -13329,7 +13329,7 @@
     },
     "343": {
      "name": "Deception, Unshrouded",
-     "effect": "Each enemy creature goes to sleep.\nChange your god power to Larceny.",
+     "effect": "Each enemy creature goes to sleep.\\nChange your god power to Larceny.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -13361,7 +13361,7 @@
     },
     "345": {
      "name": "The Mastermind",
-     "effect": "Hidden.\nRoar: Add a Mind Probe to your opponent's hand. Whenever this creature damages your opponent, add a Mind Probe to their hand.",
+     "effect": "Hidden.\\nRoar: Add a Mind Probe to your opponent's hand. Whenever this creature damages your opponent, add a Mind Probe to their hand.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -13377,7 +13377,7 @@
     },
     "346": {
      "name": "Scales of Justice",
-     "effect": "Select two creatures and evenly distribute their strength.\nThey cannot attack gods this turn.",
+     "effect": "Select two creatures and evenly distribute their strength.\\nThey cannot attack gods this turn.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -13409,7 +13409,7 @@
     },
     "348": {
      "name": "Reap",
-     "effect": "Destroy target creature.\nHeal your god for 4.",
+     "effect": "Destroy target creature.\\nHeal your god for 4.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -13425,7 +13425,7 @@
     },
     "349": {
      "name": "Shadow Slash",
-     "effect": "Pick one –\n· Deal 4 damage to a creature, or\n· Deal 4 damage to your opponent and look at the top 4 cards of their deck.",
+     "effect": "Pick one –\\n· Deal 4 damage to a creature, or\\n· Deal 4 damage to your opponent and look at the top 4 cards of their deck.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -13553,7 +13553,7 @@
     },
     "356": {
      "name": "Jungle Shepherd",
-     "effect": "Backline.\nWhenever you summon a friendly creature with strength 2 or less, add a random Anim to your hand. The Anim costs 1 extra mana.",
+     "effect": "Backline.\\nWhenever you summon a friendly creature with strength 2 or less, add a random Anim to your hand. The Anim costs 1 extra mana.",
      "god": "light",
      "rarity": "rare",
      "tribe": "amazon",
@@ -13569,7 +13569,7 @@
     },
     "357": {
      "name": "Myrto's Daughter",
-     "effect": "Blitz.\nRoar: Pick one –\n· This creature gets +2/+2, or\n· Another random friendly Amazon gets +4/+3.",
+     "effect": "Blitz.\\nRoar: Pick one –\\n· This creature gets +2/+2, or\\n· Another random friendly Amazon gets +4/+3.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "amazon",
@@ -13585,7 +13585,7 @@
     },
     "358": {
      "name": "Avatar of Magic",
-     "effect": "Protected. Ward. \nSpell boost +2.\nWhenever you cast a spell, add a copy of Beam to your hand that costs 1 mana.",
+     "effect": "Protected. Ward. \\nSpell boost +2.\\nWhenever you cast a spell, add a copy of Beam to your hand that costs 1 mana.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -13601,7 +13601,7 @@
     },
     "359": {
      "name": "Bucking Bronco",
-     "effect": "Blitz. Confused.\nWhen this creature attacks, each enemy creature becomes confused until the start of your next turn.",
+     "effect": "Blitz. Confused.\\nWhen this creature attacks, each enemy creature becomes confused until the start of your next turn.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "wild",
@@ -13617,7 +13617,7 @@
     },
     "36": {
      "name": "Natural Selection",
-     "effect": "Target friendly creature gains an extra attack this turn and attacks a random enemy creature.\nAdd a random Nature card to your hand.",
+     "effect": "Target friendly creature gains an extra attack this turn and attacks a random enemy creature.\\nAdd a random Nature card to your hand.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "",
@@ -13633,7 +13633,7 @@
     },
     "360": {
      "name": "Black Rhino",
-     "effect": "Confused.\nRoar: Pick one. This creature gets –\n· +2 strength and twin strike, or\n· +3 health and frontline.",
+     "effect": "Confused.\\nRoar: Pick one. This creature gets –\\n· +2 strength and twin strike, or\\n· +3 health and frontline.",
      "god": "nature",
      "rarity": "common",
      "tribe": "wild",
@@ -13697,7 +13697,7 @@
     },
     "364": {
      "name": "Magic, Unburdened",
-     "effect": "Transform each enemy creature into 1/1 Rats.\nChange your god power to Seer.",
+     "effect": "Transform each enemy creature into 1/1 Rats.\\nChange your god power to Seer.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -13713,7 +13713,7 @@
     },
     "365": {
      "name": "Hippolyta, Divided",
-     "effect": "Roar: Pick one. This creature gets –\n· +1/+4 and Olympian, or\n· blitz, protected, and Amazon.",
+     "effect": "Roar: Pick one. This creature gets –\\n· +1/+4 and Olympian, or\\n· blitz, protected, and Amazon.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "",
@@ -13761,7 +13761,7 @@
     },
     "368": {
      "name": "Aeneas",
-     "effect": "Blitz. Twin strike. Protected.\nAt the end of your turn, this creature becomes protected.",
+     "effect": "Blitz. Twin strike. Protected.\\nAt the end of your turn, this creature becomes protected.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -13809,7 +13809,7 @@
     },
     "370": {
      "name": "Nature, Overgrown",
-     "effect": "Refresh 2 mana.\nObliterate your void.\nChange your god power to Cultivate.",
+     "effect": "Refresh 2 mana.\\nObliterate your void.\\nChange your god power to Cultivate.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "",
@@ -13825,7 +13825,7 @@
     },
     "371": {
      "name": "Specialist Force",
-     "effect": "Add three random Amazons to your hand.\nYour creatures are no longer confused.",
+     "effect": "Add three random Amazons to your hand.\\nYour creatures are no longer confused.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -13857,7 +13857,7 @@
     },
     "373": {
      "name": "O Fortuna",
-     "effect": "Deal 4 damage to target enemy creature and its god.\nGive protected and ward to your god.\nDraw four cards.",
+     "effect": "Deal 4 damage to target enemy creature and its god.\\nGive protected and ward to your god.\\nDraw four cards.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -14001,7 +14001,7 @@
     },
     "383": {
      "name": "Aetherrust",
-     "effect": "Destroy a friendly Atlantean.\nSummon two random Atlanteans from among all voids.",
+     "effect": "Destroy a friendly Atlantean.\\nSummon two random Atlanteans from among all voids.",
      "god": "death",
      "rarity": "rare",
      "tribe": "",
@@ -14017,7 +14017,7 @@
     },
     "384": {
      "name": "Magic Missile Launcher",
-     "effect": "Blitz.\nAfterlife: Deal 2 damage to two random creatures. Heal your god for 4.",
+     "effect": "Blitz.\\nAfterlife: Deal 2 damage to two random creatures. Heal your god for 4.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -14033,7 +14033,7 @@
     },
     "385": {
      "name": "Firewall",
-     "effect": "Cannot attack. Frontline.\nCreatures damaged by this creature get burn +2.",
+     "effect": "Cannot attack. Frontline.\\nCreatures damaged by this creature get burn +2.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "atlantean",
@@ -14097,7 +14097,7 @@
     },
     "389": {
      "name": "Cryodyne Trident",
-     "effect": "Blitz. Leech.\nAfter your god attacks, this relic gets +1 strength.",
+     "effect": "Blitz. Leech.\\nAfter your god attacks, this relic gets +1 strength.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "",
@@ -14145,7 +14145,7 @@
     },
     "391": {
      "name": "Howler Golem",
-     "effect": "Protected.\nRoar: Deal 2 damage to each enemy creature.",
+     "effect": "Protected.\\nRoar: Deal 2 damage to each enemy creature.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "atlantean",
@@ -14177,7 +14177,7 @@
     },
     "393": {
      "name": "The Iron Horse",
-     "effect": "Protected. Ward.\nAfterlife: Summon a random anim.",
+     "effect": "Protected. Ward.\\nAfterlife: Summon a random anim.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "atlantean",
@@ -14193,7 +14193,7 @@
     },
     "394": {
      "name": "Aether Chest",
-     "effect": "Frontline.\nCan't attack. Burn 2.\nAfterlife: Add two random Atlantean's to each players hand.",
+     "effect": "Frontline.\\nCan't attack. Burn 2.\\nAfterlife: Add two random Atlantean's to each players hand.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "atlantean",
@@ -14305,7 +14305,7 @@
     },
     "402": {
      "name": "Blessed Chimera",
-     "effect": "Deadly. Flank. Frontline. Protected. Ward.\nRoar: Give burn +1 to a creature.",
+     "effect": "Deadly. Flank. Frontline. Protected. Ward.\\nRoar: Give burn +1 to a creature.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "",
@@ -14545,7 +14545,7 @@
     },
     "46": {
      "name": "Untold Greed",
-     "effect": "Destroy target friendly creature.\nDraw two cards.",
+     "effect": "Destroy target friendly creature.\\nDraw two cards.",
      "god": "death",
      "rarity": "rare",
      "tribe": "",
@@ -14561,7 +14561,7 @@
     },
     "47": {
      "name": "Sacred Lore",
-     "effect": "Deal 1 damage to your god.\nAdd three random runes to your hand.",
+     "effect": "Deal 1 damage to your god.\\nAdd three random runes to your hand.",
      "god": "death",
      "rarity": "rare",
      "tribe": "",
@@ -14593,7 +14593,7 @@
     },
     "49": {
      "name": "The Black Argo",
-     "effect": "Flank.\nRoar: Each other friendly Olympian gets +1 strength and flank.",
+     "effect": "Flank.\\nRoar: Each other friendly Olympian gets +1 strength and flank.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "olympian",
@@ -14625,7 +14625,7 @@
     },
     "50": {
      "name": "Anputian Magus",
-     "effect": "Backline.\nWhen a friendly creature dies, add a random Rune to your hand.",
+     "effect": "Backline.\\nWhen a friendly creature dies, add a random Rune to your hand.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "anubian",
@@ -14673,7 +14673,7 @@
     },
     "53": {
      "name": "Dire Demilich",
-     "effect": "Leech.\nRoar: Give deadly to all of your creatures.",
+     "effect": "Leech.\\nRoar: Give deadly to all of your creatures.",
      "god": "death",
      "rarity": "epic",
      "tribe": "nether",
@@ -14705,7 +14705,7 @@
     },
     "55": {
      "name": "Boost Walker",
-     "effect": "Burn 1.\nRoar: Give another Atlantean twin strike and +2/+2.",
+     "effect": "Burn 1.\\nRoar: Give another Atlantean twin strike and +2/+2.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "atlantean",
@@ -14769,7 +14769,7 @@
     },
     "59": {
      "name": "Expectant Chicken",
-     "effect": "Confused.\nRoar: Summon a Chicken Egg.",
+     "effect": "Confused.\\nRoar: Summon a Chicken Egg.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "wild",
@@ -14817,7 +14817,7 @@
     },
     "61": {
      "name": "Spellbound",
-     "effect": "Target two creatures.\nThey go to sleep.",
+     "effect": "Target two creatures.\\nThey go to sleep.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -14849,7 +14849,7 @@
     },
     "63": {
      "name": "Uproot",
-     "effect": "Deal 8 damage to a random enemy creature.\nSummon a 2/2 Walking Tree for your opponent.",
+     "effect": "Deal 8 damage to a random enemy creature.\\nSummon a 2/2 Walking Tree for your opponent.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -14865,7 +14865,7 @@
     },
     "64": {
      "name": "Avatar of Light",
-     "effect": "Frontline. Protected.\nRoar: Fully heal all other friendly creatures.",
+     "effect": "Frontline. Protected.\\nRoar: Fully heal all other friendly creatures.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "",
@@ -14913,7 +14913,7 @@
     },
     "65001": {
      "name": "Prometheus",
-     "effect": "Burn 3.\nAt the start of the game, shuffle 15 Promethean Flames into each player's deck. Give your god burn +3.",
+     "effect": "Burn 3.\\nAt the start of the game, shuffle 15 Promethean Flames into each player's deck. Give your god burn +3.",
      "god": "neutral",
      "rarity": "mythic",
      "tribe": "",
@@ -14961,7 +14961,7 @@
     },
     "65004": {
      "name": "Citadel of the Gods",
-     "effect": "At the start of the game, move this card to the top of your deck.\nEach player summons three legendary champions, equips a champion's relic, and unlocks all mana locks. Both gods gain protected and ward.",
+     "effect": "At the start of the game, move this card to the top of your deck.\\nEach player summons three legendary champions, equips a champion's relic, and unlocks all mana locks. Both gods gain protected and ward.",
      "god": "neutral",
      "rarity": "mythic",
      "tribe": "",
@@ -15089,7 +15089,7 @@
     },
     "72": {
      "name": "Scythes of the Harvest",
-     "effect": "Godblitz.\nRoar: Give +1 strength to a random friendly creature.",
+     "effect": "Godblitz.\\nRoar: Give +1 strength to a random friendly creature.",
      "god": "war",
      "rarity": "epic",
      "tribe": "",
@@ -15153,7 +15153,7 @@
     },
     "76": {
      "name": "Set Oshi",
-     "effect": "Whenever you play an anim, add a random anim to your hand.\nRoar: Add an anim to your hand.",
+     "effect": "Whenever you play an anim, add a random anim to your hand.\\nRoar: Add an anim to your hand.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "",
@@ -15265,7 +15265,7 @@
     },
     "801": {
      "name": "Diones, Spectral Sceptic",
-     "effect": "Roar: If your god \nhas 15 health or less, \ndraw two cards.",
+     "effect": "Roar: If your god \\nhas 15 health or less, \\ndraw two cards.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "",
@@ -15297,7 +15297,7 @@
     },
     "803": {
      "name": "Return to the Cave",
-     "effect": "Add two mana locks.\nHeal your god for 10.",
+     "effect": "Add two mana locks.\\nHeal your god for 10.",
      "god": "death",
      "rarity": "epic",
      "tribe": "",
@@ -15441,7 +15441,7 @@
     },
     "811": {
      "name": "Hippacria's Monster",
-     "effect": "Ward.\nWhen this creature is summoned, it gains the combined strength and health of each creature in your void.",
+     "effect": "Ward.\\nWhen this creature is summoned, it gains the combined strength and health of each creature in your void.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "",
@@ -15457,7 +15457,7 @@
     },
     "812": {
      "name": "Form of Wisdom",
-     "effect": "Draw a card.\nIf it's a spell that costs 3 or less, reduce its cost to 0.",
+     "effect": "Draw a card.\\nIf it's a spell that costs 3 or less, reduce its cost to 0.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -15489,7 +15489,7 @@
     },
     "814": {
      "name": "Rod of Rodents",
-     "effect": "After you cast a spell\nthat costs 3 or less,\nsummon a 1/1 Rat.",
+     "effect": "After you cast a spell\\nthat costs 3 or less,\\nsummon a 1/1 Rat.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -15521,7 +15521,7 @@
     },
     "816": {
      "name": "Recovered Knowledge",
-     "effect": "Soulless.\nPull two random spells, that each cost 3 or less, from your void into your hand.",
+     "effect": "Soulless.\\nPull two random spells, that each cost 3 or less, from your void into your hand.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -15553,7 +15553,7 @@
     },
     "818": {
      "name": "Majes, Spectral Philosopher",
-     "effect": "Ward.\nRoar: Add a Form of Wisdom, a Form of Power, and a Form of Unity to your hand.",
+     "effect": "Ward.\\nRoar: Add a Form of Wisdom, a Form of Power, and a Form of Unity to your hand.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -15569,7 +15569,7 @@
     },
     "819": {
      "name": "Archimea, Arithmancer",
-     "effect": "Ward.\nAfter you cast a spell\nthat costs 3 or less,\nrefresh 1 mana.",
+     "effect": "Ward.\\nAfter you cast a spell\\nthat costs 3 or less,\\nrefresh 1 mana.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -15585,7 +15585,7 @@
     },
     "82": {
      "name": "Light, Ascended",
-     "effect": "Soulless.\nGive each friendly creature +2 health.\nYour god power becomes Shine.",
+     "effect": "Soulless.\\nGive each friendly creature +2 health.\\nYour god power becomes Shine.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "",
@@ -15633,7 +15633,7 @@
     },
     "822": {
      "name": "Mana Auditor",
-     "effect": "Roar: If you are holding\nan Aether, remove\ntwo mana locks.",
+     "effect": "Roar: If you are holding\\nan Aether, remove\\ntwo mana locks.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "aether",
@@ -15665,7 +15665,7 @@
     },
     "824": {
      "name": "Lysander, Champion of Light",
-     "effect": "Frontline. Ward. \nAt the start of your turn, \ncompletely heal this creature.\nAfter a friendly creature\nis healed, they gain\n+1 strength.",
+     "effect": "Frontline. Ward. \\nAt the start of your turn, \\ncompletely heal this creature.\\nAfter a friendly creature\\nis healed, they gain\\n+1 strength.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -15681,7 +15681,7 @@
     },
     "825": {
      "name": "Pallas, Champion of Magic",
-     "effect": "Ward.\nAbility: Delve a spell, or obliterate a random card in the enemy god's void and deal damage to them equal to its cost.",
+     "effect": "Ward.\\nAbility: Delve a spell, or obliterate a random card in the enemy god's void and deal damage to them equal to its cost.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "mystic",
@@ -15697,7 +15697,7 @@
     },
     "826": {
      "name": "Selena, Champion of Nature",
-     "effect": "Backline. Ward.\nRoar: Your creatures lose confusion.\nAbility: Deal 2 damage to an enemy, then confuse a random enemy creature.",
+     "effect": "Backline. Ward.\\nRoar: Your creatures lose confusion.\\nAbility: Deal 2 damage to an enemy, then confuse a random enemy creature.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "amazon",
@@ -15713,7 +15713,7 @@
     },
     "827": {
      "name": "Valka, Champion of War",
-     "effect": "Frontline. Twin strike. Overkill.\nRoar: Deal this creature's strength as damage to each enemy creature.\nAfterlife: Give +3/+3 to each Viking in your hand, deck, and board.",
+     "effect": "Frontline. Twin strike. Overkill.\\nRoar: Deal this creature's strength as damage to each enemy creature.\\nAfterlife: Give +3/+3 to each Viking in your hand, deck, and board.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "viking",
@@ -15729,7 +15729,7 @@
     },
     "828": {
      "name": "Neferu, Champion of Death",
-     "effect": "When this creature is summoned, deal 3 damage to each other character.\nAfterlife: If your god has 15 health or less, pull this creature into your hand and permanently reduce its cost by 1.",
+     "effect": "When this creature is summoned, deal 3 damage to each other character.\\nAfterlife: If your god has 15 health or less, pull this creature into your hand and permanently reduce its cost by 1.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "anubian",
@@ -15745,7 +15745,7 @@
     },
     "829": {
      "name": "Orfeo, Champion of Deception",
-     "effect": "Backline. Deadly.\nHidden for 1 turn. \nAfter you play a card, play this creature to the board if it's in your hand.",
+     "effect": "Backline. Deadly.\\nHidden for 1 turn. \\nAfter you play a card, play this creature to the board if it's in your hand.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "guild",
@@ -15761,7 +15761,7 @@
     },
     "83": {
      "name": "Death, Unborn",
-     "effect": "Soulless.\nDraw two cards.\nSet each god's health to 20.\nDestroy a random enemy creature with cost 5 or more.\nChange your god power to Blight.",
+     "effect": "Soulless.\\nDraw two cards.\\nSet each god's health to 20.\\nDestroy a random enemy creature with cost 5 or more.\\nChange your god power to Blight.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "",
@@ -15777,7 +15777,7 @@
     },
     "830": {
      "name": "Lysander's Spear",
-     "effect": "After you play a Light card, give +1 durability to this relic.\nAbility: Give +2/+2 to a creature and -2 durability to this relic.",
+     "effect": "After you play a Light card, give +1 durability to this relic.\\nAbility: Give +2/+2 to a creature and -2 durability to this relic.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "",
@@ -15793,7 +15793,7 @@
     },
     "831": {
      "name": "Pallas' Wand",
-     "effect": "After you play a Magic card, give +1 durability to this relic.\nAbility: Draw a card, and give -3 durability to this relic.",
+     "effect": "After you play a Magic card, give +1 durability to this relic.\\nAbility: Draw a card, and give -3 durability to this relic.",
      "god": "magic",
      "rarity": "legendary",
      "tribe": "",
@@ -15809,7 +15809,7 @@
     },
     "832": {
      "name": "Selena's Bow",
-     "effect": "After you play a Nature card, give +1 durability to this relic.\nAbility: Deal 2 damage to a random enemy creature and give -2 durability to this relic.",
+     "effect": "After you play a Nature card, give +1 durability to this relic.\\nAbility: Deal 2 damage to a random enemy creature and give -2 durability to this relic.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "",
@@ -15825,7 +15825,7 @@
     },
     "833": {
      "name": "Valka's Axe",
-     "effect": "After you play a War card, give +1 durability to this relic.\nAbility: Give +1/+1, or +2/+2 if you control a Viking, to each of your creatures on the board and in your hand, and give -2 durability to this relic.",
+     "effect": "After you play a War card, give +1 durability to this relic.\\nAbility: Give +1/+1, or +2/+2 if you control a Viking, to each of your creatures on the board and in your hand, and give -2 durability to this relic.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "",
@@ -15841,7 +15841,7 @@
     },
     "834": {
      "name": "Neferu's Khopesh",
-     "effect": "After you play a Death card, give +1 durability to this relic.\nAbility: Pull the creature with the lowest strength from your void to the board, and give -2 durability to this relic.",
+     "effect": "After you play a Death card, give +1 durability to this relic.\\nAbility: Pull the creature with the lowest strength from your void to the board, and give -2 durability to this relic.",
      "god": "death",
      "rarity": "legendary",
      "tribe": "",
@@ -15857,7 +15857,7 @@
     },
     "835": {
      "name": "Orfeo's Mask",
-     "effect": "After you play a Deception card, give +1 durability to this relic.\nAbility: Pull an enemy creature into your opponent’s hand, and give -2 durability to this relic.",
+     "effect": "After you play a Deception card, give +1 durability to this relic.\\nAbility: Pull an enemy creature into your opponent’s hand, and give -2 durability to this relic.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -15889,7 +15889,7 @@
     },
     "837": {
      "name": "Enchanted Vines",
-     "effect": "Deal 4 damage to four random creatures.\nAdd a random Nature card to your hand.",
+     "effect": "Deal 4 damage to four random creatures.\\nAdd a random Nature card to your hand.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -15905,7 +15905,7 @@
     },
     "838": {
      "name": "Jaguar Staff",
-     "effect": "Blitz.\nAfter your god attacks, summon a Black Jaguar.",
+     "effect": "Blitz.\\nAfter your god attacks, summon a Black Jaguar.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -15969,7 +15969,7 @@
     },
     "841": {
      "name": "Ornery Goat",
-     "effect": "Confused.\nAt the start of your turn, deal 2 damage to a random enemy creature.",
+     "effect": "Confused.\\nAt the start of your turn, deal 2 damage to a random enemy creature.",
      "god": "nature",
      "rarity": "common",
      "tribe": "wild",
@@ -15985,7 +15985,7 @@
     },
     "842": {
      "name": "Figure in the Streets",
-     "effect": "Frontline. Regen 2.\nAfterlife: Add two random Nature cards to your hand.",
+     "effect": "Frontline. Regen 2.\\nAfterlife: Add two random Nature cards to your hand.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "",
@@ -16017,7 +16017,7 @@
     },
     "844": {
      "name": "Caller of the Hunt",
-     "effect": "Regen 3.\nRoar: Give each of your creatures \"After this creature attacks a creature, deal 2 damage to a random enemy creature.\"",
+     "effect": "Regen 3.\\nRoar: Give each of your creatures \"After this creature attacks a creature, deal 2 damage to a random enemy creature.\"",
      "god": "nature",
      "rarity": "epic",
      "tribe": "amazon",
@@ -16033,7 +16033,7 @@
     },
     "845": {
      "name": "Seasonal Rebirth",
-     "effect": "Deal 15 damage to \neach enemy creature.\nYour opponent summons a 1/1 Walking Plant for each creature damaged by this effect.",
+     "effect": "Deal 15 damage to \\neach enemy creature.\\nYour opponent summons a 1/1 Walking Plant for each creature damaged by this effect.",
      "god": "nature",
      "rarity": "epic",
      "tribe": "",
@@ -16065,7 +16065,7 @@
     },
     "847": {
      "name": "Chiron, the Teacher",
-     "effect": "Regen 1.\nRoar: Randomly give +1/+1 to another of your creatures. Give -1 durability to your opponent’s relic.",
+     "effect": "Regen 1.\\nRoar: Randomly give +1/+1 to another of your creatures. Give -1 durability to your opponent’s relic.",
      "god": "nature",
      "rarity": "legendary",
      "tribe": "",
@@ -16081,7 +16081,7 @@
     },
     "848": {
      "name": "Stolen Plans",
-     "effect": "Target an opponent.\nDelve a card belonging to\nthat god's domain.\n(The domains are Death, Deception, Light, Magic, Nature, and War.)",
+     "effect": "Target an opponent.\\nDelve a card belonging to\\nthat god's domain.\\n(The domains are Death, Deception, Light, Magic, Nature, and War.)",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -16097,7 +16097,7 @@
     },
     "849": {
      "name": "Fevered Dreams",
-     "effect": "Target creature goes to sleep.\nDraw a card for each sleeping enemy creature.",
+     "effect": "Target creature goes to sleep.\\nDraw a card for each sleeping enemy creature.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -16145,7 +16145,7 @@
     },
     "851": {
      "name": "Larcenous Pan",
-     "effect": "Hidden. Flank. \nWhen this creature attacks a god, steal 3 of their favor (and gain favor for attacking).",
+     "effect": "Hidden. Flank. \\nWhen this creature attacks a god, steal 3 of their favor (and gain favor for attacking).",
      "god": "deception",
      "rarity": "common",
      "tribe": "nether",
@@ -16209,7 +16209,7 @@
     },
     "855": {
      "name": "Elixir of the Panther",
-     "effect": "Pick one —\n• Add a copy of each enemy creature to your hand, or\n• Each enemy creature goes\nto sleep.",
+     "effect": "Pick one —\\n• Add a copy of each enemy creature to your hand, or\\n• Each enemy creature goes\\nto sleep.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -16257,7 +16257,7 @@
     },
     "858": {
      "name": "Eris, Queen of Chaos",
-     "effect": "Deadly. Twin strike. Flank. Hidden.\nWhen this creature attacks, obliterate the top ten cards of your opponent's deck.",
+     "effect": "Deadly. Twin strike. Flank. Hidden.\\nWhen this creature attacks, obliterate the top ten cards of your opponent's deck.",
      "god": "deception",
      "rarity": "legendary",
      "tribe": "",
@@ -16289,7 +16289,7 @@
     },
     "86": {
      "name": "Read The Leaves",
-     "effect": "Foresee 2.\nDraw a card.",
+     "effect": "Foresee 2.\\nDraw a card.",
      "god": "magic",
      "rarity": "epic",
      "tribe": "",
@@ -16337,7 +16337,7 @@
     },
     "862": {
      "name": "Commander's Gladius",
-     "effect": "Godblitz.\nRoar: Give +1/+1 to a random creature in your hand.",
+     "effect": "Godblitz.\\nRoar: Give +1/+1 to a random creature in your hand.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -16385,7 +16385,7 @@
     },
     "865": {
      "name": "Valknir Weaponsmith",
-     "effect": "Twin strike.\nRoar: If you have a relic equipped, give +1 strength\nto this creature and\nto your relic.",
+     "effect": "Twin strike.\\nRoar: If you have a relic equipped, give +1 strength\\nto this creature and\\nto your relic.",
      "god": "war",
      "rarity": "common",
      "tribe": "viking",
@@ -16401,7 +16401,7 @@
     },
     "866": {
      "name": "Howling Berserker",
-     "effect": "Leech.\nAt the end of your turn \u0026 Roar: Summon a copy of this creature.",
+     "effect": "Leech.\\nAt the end of your turn \u0026 Roar: Summon a copy of this creature.",
      "god": "war",
      "rarity": "rare",
      "tribe": "viking",
@@ -16481,7 +16481,7 @@
     },
     "870": {
      "name": "Hyrtacus, Brazen Hero",
-     "effect": "At the end of your turn, give +1 strength to this creature if it is in your hand.\nRoar: This creature deals its strength as damage to an enemy creature.",
+     "effect": "At the end of your turn, give +1 strength to this creature if it is in your hand.\\nRoar: This creature deals its strength as damage to an enemy creature.",
      "god": "war",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -16513,7 +16513,7 @@
     },
     "87002": {
      "name": "Barricade",
-     "effect": "Frontline.\nCan't attack.",
+     "effect": "Frontline.\\nCan't attack.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "structure",
@@ -16545,7 +16545,7 @@
     },
     "87004": {
      "name": "Wild Hog",
-     "effect": "Confused.\n(When a confused creature attacks, there is a 50% chance that it attacks a valid random character instead.)",
+     "effect": "Confused.\\n(When a confused creature attacks, there is a 50% chance that it attacks a valid random character instead.)",
      "god": "neutral",
      "rarity": "common",
      "tribe": "wild",
@@ -16561,7 +16561,7 @@
     },
     "87005": {
      "name": "Vanguard Axewoman",
-     "effect": "Blitz.\n(Creatures with blitz can attack enemy creatures, but not gods, the turn they are summoned.)",
+     "effect": "Blitz.\\n(Creatures with blitz can attack enemy creatures, but not gods, the turn they are summoned.)",
      "god": "neutral",
      "rarity": "common",
      "tribe": "viking",
@@ -16625,7 +16625,7 @@
     },
     "87010": {
      "name": "Jailbeast",
-     "effect": "Afterlife: Summon a\n1/1 Impling.",
+     "effect": "Afterlife: Summon a\\n1/1 Impling.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "nether",
@@ -16673,7 +16673,7 @@
     },
     "87013": {
      "name": "Poison Peddler",
-     "effect": "Deadly.\n(Any amount of deadly damage will destroy a creature.)",
+     "effect": "Deadly.\\n(Any amount of deadly damage will destroy a creature.)",
      "god": "neutral",
      "rarity": "common",
      "tribe": "guild",
@@ -16705,7 +16705,7 @@
     },
     "87015": {
      "name": "Flamecaller",
-     "effect": "Backline.\nAt the start of your turn, deal 1 damage to each enemy character.",
+     "effect": "Backline.\\nAt the start of your turn, deal 1 damage to each enemy character.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "mystic",
@@ -16753,7 +16753,7 @@
     },
     "87018": {
      "name": "Rotting Mount",
-     "effect": "Afterlife: Summon a\n1/1 Impling.",
+     "effect": "Afterlife: Summon a\\n1/1 Impling.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "nether",
@@ -16785,7 +16785,7 @@
     },
     "87020": {
      "name": "Echocaster",
-     "effect": "Ward.\nRoar: Pull a random spell from your void into your hand.",
+     "effect": "Ward.\\nRoar: Pull a random spell from your void into your hand.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "mystic",
@@ -16817,7 +16817,7 @@
     },
     "87022": {
      "name": "Anubian Usher",
-     "effect": "When this creature attacks \na god, pull a random \ncreature from your void \ninto your hand.",
+     "effect": "When this creature attacks \\na god, pull a random \\ncreature from your void \\ninto your hand.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "anubian",
@@ -16865,7 +16865,7 @@
     },
     "87026": {
      "name": "Apep's Doomcaller",
-     "effect": "Frontline.\nAfterlife: Each of your creatures gain deadly.",
+     "effect": "Frontline.\\nAfterlife: Each of your creatures gain deadly.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "anubian",
@@ -16897,7 +16897,7 @@
     },
     "87028": {
      "name": "Raid Reveller",
-     "effect": "Protected.\n(Protection stops the next source of damage this creature would take.)",
+     "effect": "Protected.\\n(Protection stops the next source of damage this creature would take.)",
      "god": "war",
      "rarity": "common",
      "tribe": "viking",
@@ -16929,7 +16929,7 @@
     },
     "87031": {
      "name": "Fury",
-     "effect": "Give blitz and +1 strength\nto a creature.",
+     "effect": "Give blitz and +1 strength\\nto a creature.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -16977,7 +16977,7 @@
     },
     "87034": {
      "name": "Over-proof Brew",
-     "effect": "Deal 1 damage to each creature.\nGive +2 strength and protected to each of your creatures.",
+     "effect": "Deal 1 damage to each creature.\\nGive +2 strength and protected to each of your creatures.",
      "god": "war",
      "rarity": "common",
      "tribe": "",
@@ -17025,7 +17025,7 @@
     },
     "87037": {
      "name": "Barbed Portcullis",
-     "effect": "Frontline.\nCan't attack.",
+     "effect": "Frontline.\\nCan't attack.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "structure",
@@ -17041,7 +17041,7 @@
     },
     "87039": {
      "name": "Peacebringer",
-     "effect": "Frontline.\nRoar: Set each enemy creature's strength and health to 2.",
+     "effect": "Frontline.\\nRoar: Set each enemy creature's strength and health to 2.",
      "god": "light",
      "rarity": "common",
      "tribe": "aether",
@@ -17073,7 +17073,7 @@
     },
     "87041": {
      "name": "Commune With The Light",
-     "effect": "Draw a card.\nGive each creature in your hand +1 health.",
+     "effect": "Draw a card.\\nGive each creature in your hand +1 health.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -17089,7 +17089,7 @@
     },
     "87042": {
      "name": "Conversion",
-     "effect": "Transform a creature\nwith cost 5 or less into \na 2/2 Acolyte, and give it protected.",
+     "effect": "Transform a creature\\nwith cost 5 or less into \\na 2/2 Acolyte, and give it protected.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -17153,7 +17153,7 @@
     },
     "87048": {
      "name": "Charging Oryx",
-     "effect": "Roar: This creature attacks a random valid character. (It will attack an enemy frontline creature if there are any. It can't attack a\nhidden creature.)",
+     "effect": "Roar: This creature attacks a random valid character. (It will attack an enemy frontline creature if there are any. It can't attack a\\nhidden creature.)",
      "god": "nature",
      "rarity": "common",
      "tribe": "wild",
@@ -17265,7 +17265,7 @@
     },
     "87056": {
      "name": "Corpse Swallower",
-     "effect": "Whenever an enemy creature dies, you\ndraw a card.",
+     "effect": "Whenever an enemy creature dies, you\\ndraw a card.",
      "god": "death",
      "rarity": "common",
      "tribe": "anubian",
@@ -17297,7 +17297,7 @@
     },
     "87058": {
      "name": "Soul Bargain",
-     "effect": "Give target friendly creature soulless. Draw a card. \n(When a card with soulless would go to the void, obliterate it instead.)",
+     "effect": "Give target friendly creature soulless. Draw a card. \\n(When a card with soulless would go to the void, obliterate it instead.)",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -17345,7 +17345,7 @@
     },
     "87061": {
      "name": "Rebuild Differently",
-     "effect": "Destroy target creature.\nPull a random creature from any void onto your side of the board.",
+     "effect": "Destroy target creature.\\nPull a random creature from any void onto your side of the board.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -17409,7 +17409,7 @@
     },
     "87067": {
      "name": "Illuminate",
-     "effect": "Pick one: \n• Foresee 1, or \n• Deal 2 damage to an enemy creature.",
+     "effect": "Pick one: \\n• Foresee 1, or \\n• Deal 2 damage to an enemy creature.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -17425,7 +17425,7 @@
     },
     "87068": {
      "name": "Versatile Conjuration",
-     "effect": "Pick one:\n• Draw a card, or\n• Give your god protected, or\n• Deal 3 damage to an enemy creature.",
+     "effect": "Pick one:\\n• Draw a card, or\\n• Give your god protected, or\\n• Deal 3 damage to an enemy creature.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -17441,7 +17441,7 @@
     },
     "87069": {
      "name": "Mind Jolt",
-     "effect": "Pick one: \n• Deal 5 damage to a creature, or \n• Draw two cards.",
+     "effect": "Pick one: \\n• Deal 5 damage to a creature, or \\n• Draw two cards.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -17457,7 +17457,7 @@
     },
     "87070": {
      "name": "Epiphany",
-     "effect": "Deal 6 damage.\nDraw a card.",
+     "effect": "Deal 6 damage.\\nDraw a card.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -17489,7 +17489,7 @@
     },
     "87072": {
      "name": "Glider Assailant",
-     "effect": "Flank.\n(This creature can attack any character, ignoring frontline and backline, if any other character has attacked this turn.)",
+     "effect": "Flank.\\n(This creature can attack any character, ignoring frontline and backline, if any other character has attacked this turn.)",
      "god": "deception",
      "rarity": "common",
      "tribe": "guild",
@@ -17569,7 +17569,7 @@
     },
     "87078": {
      "name": "Stack the Deck",
-     "effect": "Both players draw three cards. Increase by 1 the cost of the cards your\nopponent drew.",
+     "effect": "Both players draw three cards. Increase by 1 the cost of the cards your\\nopponent drew.",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -17633,7 +17633,7 @@
     },
     "872": {
      "name": "Fortify",
-     "effect": "Draw a card.\nGive a creature \"At the end of your turn, if this creature is at full health it gains +1 health. Otherwise, it heals for 1.\"",
+     "effect": "Draw a card.\\nGive a creature \"At the end of your turn, if this creature is at full health it gains +1 health. Otherwise, it heals for 1.\"",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -17649,7 +17649,7 @@
     },
     "873": {
      "name": "Veteran Hoplite",
-     "effect": "Roar: Deal 4 damage\nto this creature.",
+     "effect": "Roar: Deal 4 damage\\nto this creature.",
      "god": "light",
      "rarity": "common",
      "tribe": "olympian",
@@ -17665,7 +17665,7 @@
     },
     "874": {
      "name": "Olympian Guard",
-     "effect": "Frontline.\nAt the start of your opponent's turn, if this creature has 2 strength or less, give it +1/+1.",
+     "effect": "Frontline.\\nAt the start of your opponent's turn, if this creature has 2 strength or less, give it +1/+1.",
      "god": "light",
      "rarity": "common",
      "tribe": "olympian",
@@ -17681,7 +17681,7 @@
     },
     "875": {
      "name": "Parthene Democracy",
-     "effect": "Draw a card.\nGive +1 health to each creature on your board and in your deck.",
+     "effect": "Draw a card.\\nGive +1 health to each creature on your board and in your deck.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -17713,7 +17713,7 @@
     },
     "877": {
      "name": "Parthene Shieldmate",
-     "effect": "Frontline.\nAfter this creature is healed, give it +1 health.\nRoar: Give ward to\nthe Chosen One.",
+     "effect": "Frontline.\\nAfter this creature is healed, give it +1 health.\\nRoar: Give ward to\\nthe Chosen One.",
      "god": "light",
      "rarity": "epic",
      "tribe": "olympian",
@@ -17729,7 +17729,7 @@
     },
     "878": {
      "name": "Bardelys, Parthene Orator",
-     "effect": "Ward.\nRoar: This creature gets \n+1 strength for each enemy creature and +1 health for each other friendly creature.",
+     "effect": "Ward.\\nRoar: This creature gets \\n+1 strength for each enemy creature and +1 health for each other friendly creature.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -17745,7 +17745,7 @@
     },
     "879": {
      "name": "Isadora, Daring Patrician",
-     "effect": "Backline. Ward.\nAt the end of your turn, summon a 1/2 Olympian Guard.",
+     "effect": "Backline. Ward.\\nAt the end of your turn, summon a 1/2 Olympian Guard.",
      "god": "light",
      "rarity": "legendary",
      "tribe": "olympian",
@@ -17761,7 +17761,7 @@
     },
     "88": {
      "name": "Shady Merchant",
-     "effect": "Hidden for 1 turn.\nAt the start of your turn, add a random enchanted weapon to your hand.",
+     "effect": "Hidden for 1 turn.\\nAt the start of your turn, add a random enchanted weapon to your hand.",
      "god": "deception",
      "rarity": "common",
      "tribe": "guild",
@@ -17793,7 +17793,7 @@
     },
     "881": {
      "name": "Dowsing Blade",
-     "effect": "At the end of your turn, move the Chosen One two cards closer to the top of your deck.\nAfterlife: Give +1/+1\nto the Chosen One.",
+     "effect": "At the end of your turn, move the Chosen One two cards closer to the top of your deck.\\nAfterlife: Give +1/+1\\nto the Chosen One.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -17825,7 +17825,7 @@
     },
     "883": {
      "name": "Fated Arrival",
-     "effect": "Draw the Chosen One\nfrom your deck.\nGive it ward and frontline.",
+     "effect": "Draw the Chosen One\\nfrom your deck.\\nGive it ward and frontline.",
      "god": "light",
      "rarity": "rare",
      "tribe": "",
@@ -17841,7 +17841,7 @@
     },
     "884": {
      "name": "Aetheric Alarm",
-     "effect": "After your opponent summons a creature, summon a 0/2 Aetheric Echo with frontline.\nAt the start of your turn, give -1 durability to this relic.",
+     "effect": "After your opponent summons a creature, summon a 0/2 Aetheric Echo with frontline.\\nAt the start of your turn, give -1 durability to this relic.",
      "god": "light",
      "rarity": "epic",
      "tribe": "",
@@ -17873,7 +17873,7 @@
     },
     "886": {
      "name": "Ironclad Minotaur",
-     "effect": "Protected.\nRoar: Give ward to your god. Remove sleep from each friendly creature.",
+     "effect": "Protected.\\nRoar: Give ward to your god. Remove sleep from each friendly creature.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -17921,7 +17921,7 @@
     },
     "889": {
      "name": "Fortified Acropolis",
-     "effect": "Backline. Ward.\nAbility: Deal X+2 damage, where X is the number of Structures you control.",
+     "effect": "Backline. Ward.\\nAbility: Deal X+2 damage, where X is the number of Structures you control.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "structure",
@@ -17953,7 +17953,7 @@
     },
     "890": {
      "name": "Frumentarii Instigator",
-     "effect": "Roar: Draw a card for \neach other Guild creature \non the board.",
+     "effect": "Roar: Draw a card for \\neach other Guild creature \\non the board.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "guild",
@@ -17985,7 +17985,7 @@
     },
     "892": {
      "name": "Diligent Architect",
-     "effect": "Roar: Delve a Structure,\nadd it to your hand, and\ngive it +2 health.",
+     "effect": "Roar: Delve a Structure,\\nadd it to your hand, and\\ngive it +2 health.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "guild",
@@ -18001,7 +18001,7 @@
     },
     "893": {
      "name": "Parthene Guardian",
-     "effect": "Frontline. \nRoar: Summon a Parthene Guardian. \nAfterlife: Give ward to each friendly Olympian.",
+     "effect": "Frontline. \\nRoar: Summon a Parthene Guardian. \\nAfterlife: Give ward to each friendly Olympian.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "olympian",
@@ -18065,7 +18065,7 @@
     },
     "898": {
      "name": "Injured Hetairoi",
-     "effect": "After this creature is\nhealed, gain 2 favor.\nRoar: Deal 2 damage \nto this creature.",
+     "effect": "After this creature is\\nhealed, gain 2 favor.\\nRoar: Deal 2 damage \\nto this creature.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "guild",
@@ -18081,7 +18081,7 @@
     },
     "899": {
      "name": "Thebian Strategos",
-     "effect": "Frontline. \nAbility: Gain 7 favor.",
+     "effect": "Frontline. \\nAbility: Gain 7 favor.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "olympian",
@@ -18129,7 +18129,7 @@
     },
     "900": {
      "name": "Student of Truth",
-     "effect": "After you draw a card,\ngain 4 favor.",
+     "effect": "After you draw a card,\\ngain 4 favor.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "mystic",
@@ -18177,7 +18177,7 @@
     },
     "903": {
      "name": "Pious Giant",
-     "effect": "Roar: If you have 20 favor or more, lose 20 favor and\ngive +3/+3 and ward to this creature.",
+     "effect": "Roar: If you have 20 favor or more, lose 20 favor and\\ngive +3/+3 and ward to this creature.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "",
@@ -18193,7 +18193,7 @@
     },
     "904": {
      "name": "Ghostly Chariot",
-     "effect": "After a creature is summoned, gain 2 favor.\nAfterlife: If you have 40 favor or more, summon a Ghostly Chariot.",
+     "effect": "After a creature is summoned, gain 2 favor.\\nAfterlife: If you have 40 favor or more, summon a Ghostly Chariot.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "",
@@ -18209,7 +18209,7 @@
     },
     "905": {
      "name": "Hydna, Reef Raider",
-     "effect": "At the start of your turn, gain 3 favor. \nAt the end of your turn, if you have more favor than your opponent, deal 2 damage to the enemy creature with the least health.",
+     "effect": "At the start of your turn, gain 3 favor. \\nAt the end of your turn, if you have more favor than your opponent, deal 2 damage to the enemy creature with the least health.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "",
@@ -18225,7 +18225,7 @@
     },
     "906": {
      "name": "Guardian of the Underworld",
-     "effect": "Frontline.\nRoar: Deal X damage to your god where X is the number\nof creatures in your\nopponent's void.",
+     "effect": "Frontline.\\nRoar: Deal X damage to your god where X is the number\\nof creatures in your\\nopponent's void.",
      "god": "death",
      "rarity": "rare",
      "tribe": "nether",
@@ -18241,7 +18241,7 @@
     },
     "907": {
      "name": "Shadow of Lethenon",
-     "effect": "At the end of your turn, this creature gains hidden.\nAt the start of your turn, this creature deals 1 damage to the opposing god.",
+     "effect": "At the end of your turn, this creature gains hidden.\\nAt the start of your turn, this creature deals 1 damage to the opposing god.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "nether",
@@ -18257,7 +18257,7 @@
     },
     "908": {
      "name": "Dragon of the First Pillar",
-     "effect": "At the start of your turn, give +1 strength to each of your creatures.\nRoar: Give this creature backline and +2 strength, or give it frontline and +4 health.",
+     "effect": "At the start of your turn, give +1 strength to each of your creatures.\\nRoar: Give this creature backline and +2 strength, or give it frontline and +4 health.",
      "god": "light",
      "rarity": "rare",
      "tribe": "dragon",
@@ -18305,7 +18305,7 @@
     },
     "910": {
      "name": "Arkmonian Hydra",
-     "effect": "Confused. Roar: Summon a 3/2 Hydra Head with regen 1.\nAfter a Hydra Head dies, summon two of them.",
+     "effect": "Confused. Roar: Summon a 3/2 Hydra Head with regen 1.\\nAfter a Hydra Head dies, summon two of them.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "wild",
@@ -18321,7 +18321,7 @@
     },
     "911": {
      "name": "Tartessian Mob",
-     "effect": "Roar: Summon two copies of this creature.\nAfterlife: Deal this creature's strength as damage, split randomly among all enemy creatures.",
+     "effect": "Roar: Summon two copies of this creature.\\nAfterlife: Deal this creature's strength as damage, split randomly among all enemy creatures.",
      "god": "war",
      "rarity": "rare",
      "tribe": "olympian",
@@ -18337,7 +18337,7 @@
     },
     "912": {
      "name": "Tartessian Pear",
-     "effect": "After one of your creatures attack, give +1/+1 to your creature with the lowest strength.\nAt the end of your turn, give -1 durability to this relic.",
+     "effect": "After one of your creatures attack, give +1/+1 to your creature with the lowest strength.\\nAt the end of your turn, give -1 durability to this relic.",
      "god": "war",
      "rarity": "rare",
      "tribe": "",
@@ -18353,7 +18353,7 @@
     },
     "913": {
      "name": "Ludia's Deception",
-     "effect": "Target an opponent. Choose a card in their hand and shuffle it into their deck.\nBoth players draw a card.",
+     "effect": "Target an opponent. Choose a card in their hand and shuffle it into their deck.\\nBoth players draw a card.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -18385,7 +18385,7 @@
     },
     "915": {
      "name": "Council of the Gods",
-     "effect": "Delve a common god power from your domain.\nIt replaces your god power.\nYou cannot use it this turn.\nGain 5 favor.",
+     "effect": "Delve a common god power from your domain.\\nIt replaces your god power.\\nYou cannot use it this turn.\\nGain 5 favor.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -18417,7 +18417,7 @@
     },
     "917": {
      "name": "Vow of Champions",
-     "effect": "Pick one —\n• Draw a card.\n• Gain 7 favor.\n• Deal 2 damage.\n• Heal your god for 4.",
+     "effect": "Pick one —\\n• Draw a card.\\n• Gain 7 favor.\\n• Deal 2 damage.\\n• Heal your god for 4.",
      "god": "neutral",
      "rarity": "common",
      "tribe": "",
@@ -18433,7 +18433,7 @@
     },
     "918": {
      "name": "Trial of the Underworld",
-     "effect": "Summon a random 5-mana creature from either void to your side of the board.\nRepeat for 6, 7, and 8 mana.\nGive soulless to each of your creatures.",
+     "effect": "Summon a random 5-mana creature from either void to your side of the board.\\nRepeat for 6, 7, and 8 mana.\\nGive soulless to each of your creatures.",
      "god": "death",
      "rarity": "rare",
      "tribe": "",
@@ -18561,7 +18561,7 @@
     },
     "925": {
      "name": "Orfeo's Guile",
-     "effect": "Deal damage to each creature equal to its strength.\nFor each creature destroyed, add a random card from the opposing god's domain to your hand.",
+     "effect": "Deal damage to each creature equal to its strength.\\nFor each creature destroyed, add a random card from the opposing god's domain to your hand.",
      "god": "deception",
      "rarity": "rare",
      "tribe": "",
@@ -18593,7 +18593,7 @@
     },
     "927": {
      "name": "Pallas' Incantation",
-     "effect": "Transform each creature that costs 6 mana or more into a 1/1 Rat.\nObliterate each creature in both voids.",
+     "effect": "Transform each creature that costs 6 mana or more into a 1/1 Rat.\\nObliterate each creature in both voids.",
      "god": "magic",
      "rarity": "rare",
      "tribe": "",
@@ -18609,7 +18609,7 @@
     },
     "928": {
      "name": "Selena's Insight",
-     "effect": "Target one of your creatures to attack a random enemy creature.\nIf your creature survives and the enemy creature dies, destroy all enemy creatures.",
+     "effect": "Target one of your creatures to attack a random enemy creature.\\nIf your creature survives and the enemy creature dies, destroy all enemy creatures.",
      "god": "nature",
      "rarity": "rare",
      "tribe": "",
@@ -18673,7 +18673,7 @@
     },
     "931": {
      "name": "Soul Shatter",
-     "effect": "Destroy target creature\nwith mana cost 3 or less.",
+     "effect": "Destroy target creature\\nwith mana cost 3 or less.",
      "god": "death",
      "rarity": "common",
      "tribe": "",
@@ -18705,7 +18705,7 @@
     },
     "933": {
      "name": "Blessing of Deception",
-     "effect": "Gain 8 favor.\nYour creatures without hidden gain \"Hidden for 1 turn.\"",
+     "effect": "Gain 8 favor.\\nYour creatures without hidden gain \"Hidden for 1 turn.\"",
      "god": "deception",
      "rarity": "common",
      "tribe": "",
@@ -18769,7 +18769,7 @@
     },
     "937": {
      "name": "Healing Light",
-     "effect": "Gain 8 favor.\nFully heal each friendly creature, and give them +1 health.",
+     "effect": "Gain 8 favor.\\nFully heal each friendly creature, and give them +1 health.",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -18785,7 +18785,7 @@
     },
     "938": {
      "name": "Blessing of Light",
-     "effect": "Gain 5 favor.\nIf you have a relic equipped, it gains: \"At the end of your turn, gain 5 favor.\"",
+     "effect": "Gain 5 favor.\\nIf you have a relic equipped, it gains: \"At the end of your turn, gain 5 favor.\"",
      "god": "light",
      "rarity": "common",
      "tribe": "",
@@ -18817,7 +18817,7 @@
     },
     "94": {
      "name": "Demogorgon",
-     "effect": "Leech.\nAt the end of your turn, deal 3 damage to a random sleeping enemy creature.\nRoar: All other creatures go to sleep.",
+     "effect": "Leech.\\nAt the end of your turn, deal 3 damage to a random sleeping enemy creature.\\nRoar: All other creatures go to sleep.",
      "god": "neutral",
      "rarity": "epic",
      "tribe": "nether",
@@ -18849,7 +18849,7 @@
     },
     "941": {
      "name": "Spellbound Goblin",
-     "effect": "Spell boost +1.\nRoar: Give -5 durability to your opponent’s relic.",
+     "effect": "Spell boost +1.\\nRoar: Give -5 durability to your opponent’s relic.",
      "god": "magic",
      "rarity": "common",
      "tribe": "",
@@ -18881,7 +18881,7 @@
     },
     "943": {
      "name": "Blessing of Nature",
-     "effect": "Gain 4 favor.\nGive regen +2 to one of your creatures.",
+     "effect": "Gain 4 favor.\\nGive regen +2 to one of your creatures.",
      "god": "nature",
      "rarity": "common",
      "tribe": "",
@@ -18977,7 +18977,7 @@
     },
     "949": {
      "name": "Dragonkin Caller",
-     "effect": "Roar: Pull a random\nDragon from your deck\ninto your hand.",
+     "effect": "Roar: Pull a random\\nDragon from your deck\\ninto your hand.",
      "god": "neutral",
      "rarity": "rare",
      "tribe": "mystic",
@@ -19041,7 +19041,7 @@
     },
     "97": {
      "name": "Glass Cannon",
-     "effect": "Blitz.\nRoar: Summon a 3/3 Iron Anim for your opponent.",
+     "effect": "Blitz.\\nRoar: Summon a 3/3 Iron Anim for your opponent.",
      "god": "neutral",
      "rarity": "legendary",
      "tribe": "atlantean",
@@ -19088,4 +19088,6 @@
      "lib_id": "L1-099"
     }
    }
-   
+   `
+
+module.exports = {cards}
