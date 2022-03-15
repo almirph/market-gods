@@ -17,14 +17,14 @@ class CardsService {
     filterCard = async (buy_token_type, buy_token_address, percent, card) => {
 
         return await new Promise((resolve, reject) => {
-            request.get(urlGods(buy_token_type, buy_token_address, percent, card.name), { timeout: 30 * 1000 }, (res, err, body) => {
+            request.get(urlGods(buy_token_type, buy_token_address, percent, card.name), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
                     if (result && result.length > 0) {
                         if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent) {
-                            console.log(this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data))
-                            console.log(`Cards array size: ${result.length}`)
-                            console.log(card)
+                            // console.log(this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data))
+                            // console.log(`Cards array size: ${result.length}`)
+                            // console.log(card)
                             this.sellCards.push({ firstCard: result[0], secondCard: result[1], cardDescription: card })
                         }
                     }

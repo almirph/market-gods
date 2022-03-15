@@ -1791,22 +1791,22 @@ const cardsArray = [
         "art_id": "C8-T001",
         "lib_id": "L8-T001"
     },
-    {
-        "name": "Zombie",
-        "effect": "Leech",
-        "god": "death",
-        "rarity": "",
-        "tribe": "nether",
-        "mana": 1,
-        "attack": 1,
-        "health": 1,
-        "type": "creature",
-        "set": "order",
-        "collectable": false,
-        "live": true,
-        "art_id": "C8-T002",
-        "lib_id": "L8-T002"
-    },
+    // {
+    //     "name": "Zombie",
+    //     "effect": "Leech",
+    //     "god": "death",
+    //     "rarity": "",
+    //     "tribe": "nether",
+    //     "mana": 1,
+    //     "attack": 1,
+    //     "health": 1,
+    //     "type": "creature",
+    //     "set": "order",
+    //     "collectable": false,
+    //     "live": true,
+    //     "art_id": "C8-T002",
+    //     "lib_id": "L8-T002"
+    // },
     {
         "name": "Shimmerscales",
         "effect": "Backline. Flank.",
