@@ -1,7 +1,6 @@
 const request = require("request")
 const { cardsArray } = require("../cardsArray")
 
-
 const AWAIT_CALLS = 10
 
 const urlGods = (buy_token_type, buy_token_address, percent, sell_token_name) => `https://api.x.immutable.com/v1/orders?${buy_token_address ? 'buy_token_address=' + buy_token_address : 'buy_token_type=' + buy_token_type}&direction=asc&include_fees=true&order_by=buy_quantity&page_size=48&sell_token_name=${sell_token_name}&status=active`
@@ -22,9 +21,6 @@ class CardsService {
                     const { result } = JSON.parse(body);
                     if (result && result.length > 0) {
                         if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent) {
-                            // console.log(this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data))
-                            // console.log(`Cards array size: ${result.length}`)
-                            // console.log(card)
                             this.sellCards.push({ firstCard: result[0], secondCard: result[1], cardDescription: card })
                         }
                     }
@@ -53,43 +49,23 @@ class CardsService {
         return quantity;
     }
 
-    // static callCardAndWait = async (buy_token_type, buy_token_address, percent, position) => {
-    //     return await Promise.all((resolve) => {
-    //         setTimeout(() => {
-    //             if (cardsArray[position] && cardsArray[position].name && cardsArray[position].set === "order") {
-    //                 const newCard = this.filterCard(buy_token_type, buy_token_address, percent, cardsArray[position])
-    //                 if (newCard)
-    //                     this.sellCards.push(newCard);
-    //             }
-    //             resolve()
-    //         }, AWAIT_CALLS)
-    //     }).then(async () => {
-    //         if (position + 1 <= cardsArray.length)
-    //             await this.callCardAndWait(buy_token_type, buy_token_address, percent, position + 1)
-    //         else{
-    //             console.log('here')
-    //             return this.sellCards;
-
-    //         }
-    //     })
-
-    // }
-
-    callCardAndWait = async (buy_token_type, buy_token_address, percent, position) => {
+    callCardAndWait = async (buy_token_type, buy_token_address, percent, set) => {
         return await Promise.allSettled(cardsArray.map(async (card) => {
+            if (card && card.name && card.set === set) {
+                await new Promise((resolve) => {
+                    setTimeout(() => { resolve() }, AWAIT_CALLS);
+                })
+                    .then(async () =>
+                        await this.filterCard(buy_token_type, buy_token_address, percent, card).then((res) => res).catch(error => console.log(error)))
 
-            //console.log(card.name);
-            if (card && card.name && card.set === "order") {
-                await this.filterCard(buy_token_type, buy_token_address, percent, card).then((res) => res).catch(error => console.log(error))
             }
-
         }))
     }
 }
 
 
 
-exports.beginCallCards = async (buy_token_type, buy_token_address, percent) => {
+exports.beginCallCards = async (buy_token_type, buy_token_address, percent, set) => {
     const cardsService = new CardsService();
-    return await cardsService.callCardAndWait(buy_token_type, buy_token_address, percent, 0).then(() => cardsService.sellCards).catch((e) => console.log('error', e));
+    return await cardsService.callCardAndWait(buy_token_type, buy_token_address, percent, set).then(() => cardsService.sellCards).catch((e) => console.log('error', e));
 }
