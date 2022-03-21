@@ -3,7 +3,7 @@ const { cardsArray } = require("../cardsArray")
 
 const AWAIT_CALLS = 10
 
-const urlGods = (buy_token_type, buy_token_address, percent, sell_token_name) => `https://api.x.immutable.com/v1/orders?${buy_token_address ? 'buy_token_address=' + buy_token_address : 'buy_token_type=' + buy_token_type}&direction=asc&include_fees=true&order_by=buy_quantity&page_size=48&sell_token_name=${sell_token_name}&status=active`
+const urlGods = (buy_token_type, buy_token_address, sell_token_name) => `https://api.x.immutable.com/v1/orders?${buy_token_address ? 'buy_token_address=' + buy_token_address : 'buy_token_type=' + buy_token_type}&direction=asc&include_fees=true&order_by=buy_quantity&page_size=48&sell_token_name=${sell_token_name}&status=active`
 
 class CardsService {
 
@@ -16,10 +16,10 @@ class CardsService {
     filterCard = async (buy_token_type, buy_token_address, percent, card) => {
 
         return await new Promise((resolve, reject) => {
-            request.get(urlGods(buy_token_type, buy_token_address, percent, card.name), (res, err, body) => {
+            request.get(urlGods(buy_token_type, buy_token_address, card.name), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
-                    if (result && result.length > 0) {
+                    if (result && result.length > 0 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
                         if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent) {
                             this.sellCards.push({ firstCard: result[0], secondCard: result[1], cardDescription: card })
                         }
