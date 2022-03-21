@@ -12037,32 +12037,32 @@ const cardsArray = [
         "art_id": "C8-005",
         "lib_id": "L8-005"
     },
-    // {
-    //     "id": 1305,
-    //     "name": "Outnumber the Living",
-    //     "effect": "Summon a 1/1 Zombie for each enemy creature. If you are frenzied, summon two for each instead.",
-    //     "god": "death",
-    //     "rarity": "common",
-    //     "tribe": {
-    //         "String": "",
-    //         "Valid": false
-    //     },
-    //     "mana": 3,
-    //     "attack": {
-    //         "Int64": 0,
-    //         "Valid": false
-    //     },
-    //     "health": {
-    //         "Int64": 0,
-    //         "Valid": false
-    //     },
-    //     "type": "spell",
-    //     "set": "order",
-    //     "collectable": true,
-    //     "live": "true",
-    //     "art_id": "C8-006",
-    //     "lib_id": "L8-006"
-    // },
+    {
+        "id": 1305,
+        "name": "Outnumber the Living",
+        "effect": "Summon a 1/1 Zombie for each enemy creature. If you are frenzied, summon two for each instead.",
+        "god": "death",
+        "rarity": "common",
+        "tribe": {
+            "String": "",
+            "Valid": false
+        },
+        "mana": 3,
+        "attack": {
+            "Int64": 0,
+            "Valid": false
+        },
+        "health": {
+            "Int64": 0,
+            "Valid": false
+        },
+        "type": "spell",
+        "set": "order",
+        "collectable": true,
+        "live": "true",
+        "art_id": "C8-006",
+        "lib_id": "L8-006"
+    },
     {
         "id": 1306,
         "name": "The Plague",
@@ -32473,32 +32473,32 @@ const cardsArray = [
         "art_id": "C8-T001",
         "lib_id": "L8-T001"
     },
-    {
-        "id": 101301,
-        "name": "Zombie",
-        "effect": "Leech",
-        "god": "death",
-        "rarity": "",
-        "tribe": {
-            "String": "nether",
-            "Valid": true
-        },
-        "mana": 1,
-        "attack": {
-            "Int64": 1,
-            "Valid": true
-        },
-        "health": {
-            "Int64": 1,
-            "Valid": true
-        },
-        "type": "creature",
-        "set": "order",
-        "collectable": false,
-        "live": "true",
-        "art_id": "C8-T002",
-        "lib_id": "L8-T002"
-    },
+    // {
+    //     "id": 101301,
+    //     "name": "Zombie",
+    //     "effect": "Leech",
+    //     "god": "death",
+    //     "rarity": "",
+    //     "tribe": {
+    //         "String": "nether",
+    //         "Valid": true
+    //     },
+    //     "mana": 1,
+    //     "attack": {
+    //         "Int64": 1,
+    //         "Valid": true
+    //     },
+    //     "health": {
+    //         "Int64": 1,
+    //         "Valid": true
+    //     },
+    //     "type": "creature",
+    //     "set": "order",
+    //     "collectable": false,
+    //     "live": "true",
+    //     "art_id": "C8-T002",
+    //     "lib_id": "L8-T002"
+    // },
     {
         "id": 101302,
         "name": "Shimmerscales",
