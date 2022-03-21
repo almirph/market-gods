@@ -19,7 +19,7 @@ class CardsService {
             request.get(urlGods(buy_token_type, buy_token_address, card.name), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
-                    if (result && result.length > 0 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
+                    if (result && result.length > 48 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
                         if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent) {
                             this.sellCards.push({ firstCard: result[0], secondCard: result[1], cardDescription: card })
                         }
