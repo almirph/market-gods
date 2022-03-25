@@ -1,5 +1,5 @@
-const SalesRoute = require('./Routes/SalesRoute.js');
+const CardsRoute = require('./Routes/CardsRoute.js');
 
 module.exports = (app) => {
-   UsuarioRoute(app)
+   CardsRoute(app)
 }

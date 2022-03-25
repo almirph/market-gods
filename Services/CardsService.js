@@ -1,7 +1,7 @@
 const request = require("request")
 const { cardsArray } = require("../cardsArray")
 
-const AWAIT_CALLS = 10
+const AWAIT_CALLS = () => 1000 * Math.floor(Math.random() * 5);
 
 const urlGods = (buy_token_type, buy_token_address, sell_token_name) => `https://api.x.immutable.com/v1/orders?${buy_token_address ? 'buy_token_address=' + buy_token_address : 'buy_token_type=' + buy_token_type}&direction=asc&include_fees=true&order_by=buy_quantity&page_size=48&sell_token_name=${sell_token_name}&status=active`
 
@@ -9,25 +9,28 @@ class CardsService {
 
     sellCards = [];
 
+    hadError = false;
+
     clean = () => {
         this.sellCards = [];
     }
 
-    filterCard = async (buy_token_type, buy_token_address, percent, card) => {
+    filterCard = async (buy_token_type, buy_token_address, percent, cardName) => {
 
         return await new Promise((resolve, reject) => {
-            request.get(urlGods(buy_token_type, buy_token_address, card.name), (res, err, body) => {
+            request.get(urlGods(buy_token_type, buy_token_address, cardName), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
                     if (result && result.length >= 48 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
                         if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent) {
-                            this.sellCards.push({ firstCard: result[0], secondCard: result[1], cardDescription: card })
+                            this.sellCards.push({ firstCard: result[0], secondCard: result[1] })
                         }
                     }
                     resolve();
                 } catch (error) {
                     reject()
-                    console.log("Error parse", error)
+                    this.hadError = true;
+                    console.log("Error parse")
                 }
 
             })
@@ -53,10 +56,25 @@ class CardsService {
         return await Promise.allSettled(cardsArray.map(async (card) => {
             if (card && card.name && card.set === set) {
                 await new Promise((resolve) => {
+                    setTimeout(() => { resolve() }, AWAIT_CALLS());
+                })
+                    .then(async () =>
+                        await this.filterCard(buy_token_type, buy_token_address, percent, card.name).then((res) => res).catch(error => console.log(error)))
+
+            }
+        }))
+    }
+
+    callCardByNames = async (buy_token_type, buy_token_address, percent, cardNameList) => {
+        console.log(cardNameList);
+        return await Promise.allSettled(cardNameList.map(async (cardName) => {
+            if (cardName) {
+                console.log(cardName)
+                await new Promise((resolve) => {
                     setTimeout(() => { resolve() }, AWAIT_CALLS);
                 })
                     .then(async () =>
-                        await this.filterCard(buy_token_type, buy_token_address, percent, card).then((res) => res).catch(error => console.log(error)))
+                        await this.filterCard(buy_token_type, buy_token_address, percent, cardName).then((res) => res).catch(error => console.log(error)))
 
             }
         }))
@@ -68,4 +86,9 @@ class CardsService {
 exports.beginCallCards = async (buy_token_type, buy_token_address, percent, set) => {
     const cardsService = new CardsService();
     return await cardsService.callCardAndWait(buy_token_type, buy_token_address, percent, set).then(() => cardsService.sellCards).catch((e) => console.log('error', e));
+}
+
+exports.verifySalesCardList = async (buy_token_type, buy_token_address, percent, cardNameList) => {
+    const cardsService = new CardsService();
+    return await cardsService.callCardByNames(buy_token_type, buy_token_address, percent, cardNameList).then(() => { return { result: { sellCards: cardsService.sellCards, hadError: cardsService.hadError } } }).catch((e) => console.log('error', e));
 }
