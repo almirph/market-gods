@@ -66,10 +66,8 @@ class CardsService {
     }
 
     callCardByNames = async (buy_token_type, buy_token_address, percent, cardNameList) => {
-        console.log(cardNameList);
         return await Promise.allSettled(cardNameList.map(async (cardName) => {
             if (cardName) {
-                console.log(cardName)
                 await new Promise((resolve) => {
                     setTimeout(() => { resolve() }, AWAIT_CALLS);
                 })
