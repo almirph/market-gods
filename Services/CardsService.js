@@ -3,7 +3,7 @@ const { cardsArray } = require("../cardsArray")
 
 const AWAIT_CALLS = () => 1000 * Math.floor(Math.random() * 5);
 
-const urlGods = (buy_token_type, buy_token_address, sell_token_name) => `https://api.x.immutable.com/v1/orders?${buy_token_address ? 'buy_token_address=' + buy_token_address : 'buy_token_type=' + buy_token_type}&direction=asc&include_fees=true&order_by=buy_quantity&page_size=48&sell_token_name=${sell_token_name}&status=active`
+const urlGods = (buy_token_type, buy_token_address, quality, sell_token_name) => `https://api.x.immutable.com/v1/orders?${buy_token_address ? 'buy_token_address=' + buy_token_address : 'buy_token_type=' + buy_token_type}&direction=asc&include_fees=true&order_by=buy_quantity&page_size=48&sell_token_name=${sell_token_name}&status=active&sell_metadata=%257B%2522proto%2522%253A%255B%25221398%2522%255D%252C%2522quality%2522%253A%255B%2522${quality}%2522%255D%257D`
 
 class CardsService {
 
@@ -15,10 +15,10 @@ class CardsService {
         this.sellCards = [];
     }
 
-    filterCard = async (buy_token_type, buy_token_address, percent, cardName) => {
+    filterCard = async (buy_token_type, buy_token_address, percent, quality, cardName) => {
 
         return await new Promise((resolve, reject) => {
-            request.get(urlGods(buy_token_type, buy_token_address, cardName), (res, err, body) => {
+            request.get(urlGods(buy_token_type, buy_token_address, quality, cardName), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
                     if (result && result.length >= 48 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
@@ -52,27 +52,27 @@ class CardsService {
         return quantity;
     }
 
-    callCardAndWait = async (buy_token_type, buy_token_address, percent, set) => {
+    callCardAndWait = async (buy_token_type, buy_token_address, percent, quality, set) => {
         return await Promise.allSettled(cardsArray.map(async (card) => {
             if (card && card.name && card.set === set) {
                 await new Promise((resolve) => {
                     setTimeout(() => { resolve() }, AWAIT_CALLS());
                 })
                     .then(async () =>
-                        await this.filterCard(buy_token_type, buy_token_address, percent, card.name).then((res) => res).catch(error => console.log(error)))
+                        await this.filterCard(buy_token_type, buy_token_address, percent, quality, card.name).then((res) => res).catch(error => console.log(error)))
 
             }
         }))
     }
 
-    callCardByNames = async (buy_token_type, buy_token_address, percent, cardNameList) => {
+    callCardByNames = async (buy_token_type, buy_token_address, percent, quality, cardNameList) => {
         return await Promise.allSettled(cardNameList.map(async (cardName) => {
             if (cardName) {
                 await new Promise((resolve) => {
                     setTimeout(() => { resolve() }, AWAIT_CALLS);
                 })
                     .then(async () =>
-                        await this.filterCard(buy_token_type, buy_token_address, percent, cardName).then((res) => res).catch(error => console.log(error)))
+                        await this.filterCard(buy_token_type, buy_token_address, percent, quality, cardName).then((res) => res).catch(error => console.log(error)))
 
             }
         }))
@@ -81,12 +81,12 @@ class CardsService {
 
 
 
-exports.beginCallCards = async (buy_token_type, buy_token_address, percent, set) => {
+exports.beginCallCards = async (buy_token_type, buy_token_address, percent, quality, set) => {
     const cardsService = new CardsService();
-    return await cardsService.callCardAndWait(buy_token_type, buy_token_address, percent, set).then(() => cardsService.sellCards).catch((e) => console.log('error', e));
+    return await cardsService.callCardAndWait(buy_token_type, buy_token_address, quality, percent, set).then(() => cardsService.sellCards).catch((e) => console.log('error', e));
 }
 
-exports.verifySalesCardList = async (buy_token_type, buy_token_address, percent, cardNameList) => {
+exports.verifySalesCardList = async (buy_token_type, buy_token_address, percent, quality, cardNameList) => {
     const cardsService = new CardsService();
-    return await cardsService.callCardByNames(buy_token_type, buy_token_address, percent, cardNameList).then(() => { return { result: { sellCards: cardsService.sellCards, hadError: cardsService.hadError } } }).catch((e) => console.log('error', e));
+    return await cardsService.callCardByNames(buy_token_type, buy_token_address, percent, quality, cardNameList).then(() => { return { result: { sellCards: cardsService.sellCards, hadError: cardsService.hadError } } }).catch((e) => console.log('error', e));
 }
