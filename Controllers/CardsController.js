@@ -1,6 +1,10 @@
 const url = require('url');
 const { beginCallCards, verifySalesCardList } = require('../Services/CardsService');
 
+exports.health = (req, res, next) => {
+    res.status(200).send('Working...');
+};
+
 exports.getByList = async (req, res, next) => {
     const { buy_token_type, buy_token_address, percent, set, quality } = url.parse(req.url, true).query;
     const sellCards = await beginCallCards(buy_token_type, buy_token_address, percent, quality, set).then((sellCards) => sellCards);
