@@ -25,8 +25,11 @@ class CardsService {
             request.get(urlGods(buy_token_type, buy_token_address, quality, cardName, id), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
-                    if (result && result.length >= 48 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained" && !this.verifyHighCardFee(result[0])) {
-                        if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent) {
+                    if (result && result.length >= 48) {
+                        if (this.verifyHighCardFee(result[0]) || this.verifyHighCardFee(result[1])) {
+                            result.sort((cardA, cardB) => this.addCardFee(cardA) - this.addCardFee(cardB));
+                        }
+                        if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
                             this.sellCards.push({ firstCard: result[0], secondCard: result[1] })
                         }
                     }
@@ -53,11 +56,21 @@ class CardsService {
         );
 
         if (sumFees / this.parseCardValue(card.buy.data) > 0.05) {
-            console.log(sumFees, this.parseCardValue(card.buy.data), sumFees / this.parseCardValue(card.buy.data), card.sell.data.properties.name )
             return true;
         }
 
         return false;
+    }
+
+    addCardFee = (card) => {
+        if (!card || !card.fees || card.fees.length <= 0)
+            return this.parseCardValue(card.buy.data)
+
+        let sumFees = card.fees.reduce((prevFee, currFee) =>
+            prevFee + this.parseCardValue({ quantity: currFee.amount, decimals: currFee.token.data.decimals }), 0
+        );
+
+        return this.parseCardValue(card.buy.data) + sumFees;
     }
 
     parseCardValue = (buy) => {
