@@ -25,7 +25,7 @@ class CardsService {
             request.get(urlGods(buy_token_type, buy_token_address, quality, cardName, id), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
-                    if (result && result.length >= 48 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
+                    if (result && result.length >= 48 && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained" && !this.verifyHighCardFee(result[0])) {
                         if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent) {
                             this.sellCards.push({ firstCard: result[0], secondCard: result[1] })
                         }
@@ -41,6 +41,22 @@ class CardsService {
 
         }).then(() => { });
 
+    }
+
+    verifyHighCardFee = (card) => {
+        const fees = card.fees;
+        if (!card || !card.fees || card.fees.length <= 0)
+            return false;
+
+        let sumFees = fees.reduce((prevFee, currFee) =>
+            prevFee + this.parseCardValue({ quantity: currFee.amount, decimals: currFee.token.data.decimals }), 0
+        );
+
+        if (sumFees / this.parseCardValue(card.buy.data) > 0.05) {
+            return true;
+        }
+
+        return false;
     }
 
     parseCardValue = (buy) => {
