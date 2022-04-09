@@ -34,7 +34,7 @@ class CardsService {
                 } catch (error) {
                     reject()
                     this.hadError = true;
-                    console.log("Error parse")
+                    console.log("Error parse", error)
                 }
 
             })
@@ -53,6 +53,7 @@ class CardsService {
         );
 
         if (sumFees / this.parseCardValue(card.buy.data) > 0.05) {
+            console.log(sumFees, this.parseCardValue(card.buy.data), sumFees / this.parseCardValue(card.buy.data), card.sell.data.properties.name )
             return true;
         }
 
