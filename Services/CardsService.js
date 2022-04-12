@@ -3,8 +3,10 @@ const { cardsArray } = require("../cardsArray")
 
 const AWAIT_CALLS = () => 1000 * Math.floor(Math.random() * 5);
 
+const cardsArraySize = 200;
+
 const urlGods = (buy_token_type, buy_token_address, quality, sell_token_name, id) => 'https://api.x.immutable.com/v1/orders?'
-    .concat('direction=asc&include_fees=true&order_by=buy_quantity&page_size=48&status=active')
+    .concat(`direction=asc&include_fees=true&order_by=buy_quantity&page_size=${cardsArraySize}&status=active`)
     .concat(buy_token_address ? '&buy_token_address='.concat(buy_token_address) : '&buy_token_type='.concat(buy_token_type))
     .concat(sell_token_name ? '&sell_token_name='.concat(sell_token_name) : '')
     .concat(quality && !sell_token_name ? `&sell_metadata=%7B%22proto%22%3A%5B%22${id}%22%5D%2C%22quality%22%3A%5B%22${quality}%22%5D%7D` : '')
@@ -25,7 +27,7 @@ class CardsService {
             request.get(urlGods(buy_token_type, buy_token_address, quality, cardName, id), (res, err, body) => {
                 try {
                     const { result } = JSON.parse(body);
-                    if (result && result.length >= 48) {
+                    if (result && result.length >= cardsArraySize) {
                         if (this.verifyHighCardFee(result[0]) || this.verifyHighCardFee(result[1])) {
                             result.sort((cardA, cardB) => this.addCardFee(cardA) - this.addCardFee(cardB));
                         }
