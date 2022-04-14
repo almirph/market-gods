@@ -31,8 +31,8 @@ class CardsService {
                         if (this.verifyHighCardFee(result[0]) || this.verifyHighCardFee(result[1])) {
                             result.sort((cardA, cardB) => this.addCardFee(cardA) - this.addCardFee(cardB));
                         }
-                        if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent && result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained") {
-                            this.sellCards.push({ firstCard: result[0], secondCard: result[1] })
+                        if (result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained" && result[2].sell.data.properties.collection.name === "Gods Unchained") {
+                            this.verifyAndSetCards(result, percent);
                         }
                     }
                     resolve();
@@ -46,6 +46,13 @@ class CardsService {
 
         }).then(() => { });
 
+    }
+
+    verifyAndSetCards = (result, percent) => {
+        if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent)
+            this.sellCards.push({ firstCard: result[0], secondCard: result[1] })
+        //else if (result[1]?.buy && result[2]?.buy && this.parseCardValue(result[1].buy.data) / this.parseCardValue(result[2].buy.data) < percent)
+        //    this.sellCards.push({ firstCard: result[0], secondCard: result[1], thirdCard: result[2] })
     }
 
     verifyHighCardFee = (card) => {
