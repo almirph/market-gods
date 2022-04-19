@@ -3,7 +3,7 @@ const { cardsArray } = require("../cardsArray")
 
 const AWAIT_CALLS = () => 1000 * Math.floor(Math.random() * 5);
 
-const cardsArraySize = 200;
+const cardsArraySize = 48;
 
 const urlGods = (buy_token_type, buy_token_address, quality, sell_token_name, id) => 'https://api.x.immutable.com/v1/orders?'
     .concat(`direction=asc&include_fees=true&order_by=buy_quantity&page_size=${cardsArraySize}&status=active`)
@@ -32,7 +32,7 @@ class CardsService {
                             result.sort((cardA, cardB) => this.addCardFee(cardA) - this.addCardFee(cardB));
                         }
                         if (result[0].sell.data.properties.collection.name === "Gods Unchained" && result[1].sell.data.properties.collection.name === "Gods Unchained" && result[2].sell.data.properties.collection.name === "Gods Unchained") {
-                            this.verifyAndSetCards(result, percent);
+                            this.verifyAndSetCards(result, percent, quality, id);
                         }
                     }
                     resolve();
@@ -48,9 +48,9 @@ class CardsService {
 
     }
 
-    verifyAndSetCards = (result, percent) => {
+    verifyAndSetCards = (result, percent, quality, id) => {
         if (result[0]?.buy && result[1]?.buy && this.parseCardValue(result[0].buy.data) / this.parseCardValue(result[1].buy.data) < percent)
-            this.sellCards.push({ firstCard: result[0], secondCard: result[1] })
+            this.sellCards.push({ firstCard: { ...result[0], quality, id }, secondCard: { ...result[1], quality, id } })
         //else if (result[1]?.buy && result[2]?.buy && this.parseCardValue(result[1].buy.data) / this.parseCardValue(result[2].buy.data) < percent)
         //    this.sellCards.push({ firstCard: result[0], secondCard: result[1], thirdCard: result[2] })
     }
